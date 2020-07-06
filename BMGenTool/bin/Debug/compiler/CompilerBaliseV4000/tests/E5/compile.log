@@ -1,0 +1,24 @@
+ DATA COMPILER FOR EUROBALISE Version 4.0.0.0
+
+coding strategy used for telegrams is: SACEM
+
+parsing input file D:\newcomp\balcomp\soft\tests\E5\TEST_BAL1-10000001.xml on Tue Mar 27 17:01:28 2007
+
+End of DTD conformity checking.
+OK
+end of parsing time elapsed: 0 seconds
+ UDF -> CFG converter 
+Reading file ..\parser\telgen_1.udf
+
+ end of conversion, time elapsed: 0 seconds
+ CFG -> XML converter 
+reading data from file ..\parser\telgen.cfg
+
+ --------------> Scrambling eurotelegrams <----------------- 
+
+
+ --------------> Checking telegram overscrambling <----------------- 
+
+ERROR overscrambled telegram has more than 4 consecutive bits set to 1..
+ERROR in cfg -> xml conversion, COMPILATION ABORTED ...
+ERROR in cfg -> xml conversion, COMPILATION ABORTED ...

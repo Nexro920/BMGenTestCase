@@ -1,0 +1,14 @@
+ DATA COMPILER FOR EUROBALISE Version 4.0.0.0
+
+coding strategy used for telegrams is: ERTMS
+
+parsing input file D:\newcomp\balcomp\soft\tests\E3\nobalname.xml on Wed Mar 28 15:28:36 2007
+XML::Checker ERROR-159: unspecified value for #REQUIRED attribute [name]
+	Context: Element Balise, Attr name, line 6, column 0, byte 204
+
+ERROR : The input xml document is not valid.
+
+End of DTD conformity checking.
+
+ERROR  aborted, COMPILATION FAILED..
+ERROR  aborted, COMPILATION FAILED..

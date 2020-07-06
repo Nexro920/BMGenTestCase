@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1' standalone='no'?>
+<!DOCTYPE MPM SYSTEM "mpm.dtd" 
+[
+<!ENTITY Selected_TSE SYSTEM "tse.xml">
+<!ENTITY Selected_TPC SYSTEM "tpc.xml">
+<!ENTITY Selected_TE1 SYSTEM "te1.xml">
+]>
+
+<MPM>
+&Selected_TE1;
+&Selected_TPC;
+&Selected_TSE;
+</MPM>

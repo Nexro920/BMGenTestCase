@@ -1,0 +1,2 @@
+modifs apportées au fichier Balise_1-10000001_03_01_08_mod.xml: longueur du télégramme passée en SHORT. Le télégramme
+est repris de celui du codeur SCMT.

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Balise compiler input file DTD -->
+<!ELEMENT Balise (Telegram)>
+<!ATTLIST Balise
+	name CDATA #REQUIRED
+>
+<!ELEMENT Telegram (#PCDATA)>
+<!ATTLIST Telegram
+	type (SHORT|LONG) #REQUIRED
+>

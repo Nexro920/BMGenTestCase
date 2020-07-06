@@ -1,0 +1,1 @@
+pour faire ce test, recompiler tebld avec 4 bits consécutifs a un max dans shift_and_codeTgm

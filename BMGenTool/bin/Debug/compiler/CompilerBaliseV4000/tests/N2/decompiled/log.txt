@@ -1,0 +1,15 @@
+Decompiler GDPP athenes
+
+----------------------
+Status Output File
+----------------------
+
+Begin of execution -> 2007/03/28 15h:30m:18s
+
+Read TGM file : Test_Bal2.tgm : OK
+Number of eurotelegrams : 1
+Size of eurotelegrams : SHORT
+Convert TGM to UDF : OK
+Write UDF file : decompiled\Test_Bal2.udf :OK
+Return code will be : 0x0
+End of execution -> 2007/03/28 15h:30m:18s

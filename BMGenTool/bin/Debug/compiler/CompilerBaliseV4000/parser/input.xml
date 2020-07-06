@@ -1,0 +1,7 @@
+<?xml version='1.0' standalone='no'?>
+<!-- Balise data COMPILER  file: C:\Files\workspacesC\BMGen\SourceCode\BMGenTool\bin\Debug\output\Beacon\FB218.xml processed on Mon Jun 15 09:39:24 2020 -->
+<!DOCTYPE World SYSTEM "Balise.dtd">
+<!--Data of generation: Bcode_iTRNV-BMGenTool2_V1.0.2_Build_20200409_debug-->
+<Balise name="FB218">
+  <Telegram type="LONG">90 00 7F 80 61 46 8B 10 18 32 80 00 7F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+</Balise>

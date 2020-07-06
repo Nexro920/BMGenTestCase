@@ -1,0 +1,12 @@
+<!ENTITY % tse_dtd SYSTEM "tse.dtd">
+<!ENTITY % tpc_dtd SYSTEM "tpc.dtd">
+<!ENTITY % tei_dtd SYSTEM "tei.dtd">
+
+<!ELEMENT MPM (TEI, TPC, TSE)>
+
+<!-- $Id: mpm.dtd,v 1.1.1.1 2003/01/21 14:06:44 sebilleau Exp $ -->
+
+%tse_dtd;
+%tpc_dtd;
+%tei_dtd;
+

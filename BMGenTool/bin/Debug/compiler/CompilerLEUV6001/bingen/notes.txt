@@ -1,0 +1,14 @@
+Gestion des TE
+1) si on veut générer toutes les TE à la fois => il faudrait 
+les mettre dans l'ordre dans le fichier xml (et prévoir les trous pour que le n° de TE soit
+géré correctement) => le programme écrit N fichier TE.bin
+
+2) si on ne veut générer que la TE sélectionnée, il faut passer le n° de la TE en paramètre
+à l'appel du programme et écrire une seule TEi ou bien écrire le numéro de la TE dans telgen.xml
+
+3) aujourd'hui le programme prend toujours la TE comme TE1 et écrit TE1.bin quelque soit le
+numéro de TE sélectionnée => ça marche pas
+
+Changer le message dans output log BEGIN TE1 Table
+Changer aussi le nom du fichier TE rechargé pour le scrambling (cherche TE2 alors que travaille tj sur TE1)
+pourquoi pas de message d'erreur sur erreur de relecture ? pb eval dans parser (corrigé avec sub creve)

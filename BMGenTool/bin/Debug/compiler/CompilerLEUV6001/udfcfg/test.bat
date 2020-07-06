@@ -1,0 +1,1 @@
+udf2cfg -n 4 -f C:\XML\charleroi\LEUCOMP\soft\parser\telgen -t 00000001

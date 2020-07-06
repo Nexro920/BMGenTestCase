@@ -1,0 +1,2 @@
+..\..\..\..\Leudcomp\Livraison\software\Decompiler\tgm2udf.exe S-D_1-2_13_070_466.tgm -o decompiled\S-D_1-2_13_070_466.udf -l decompiled\log.txt
+..\diff S-D_1-2_13_070_466.udf decompiled\S-D_1-2_13_070_466.udf

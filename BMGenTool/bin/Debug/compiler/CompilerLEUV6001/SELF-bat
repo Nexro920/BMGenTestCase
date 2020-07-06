@@ -1,0 +1,2 @@
+compile.exe E3b.xml -o d:\leu\b3 -udf -tgm -verif -telformat sacem
+pause

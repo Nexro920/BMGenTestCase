@@ -1,0 +1,27 @@
+ DATA COMPILER FOR EUROBALISE Version 4.0.0.0
+
+coding strategy used for telegrams is: ERTMS
+
+parsing input file D:\newcomp\balcomp\soft\tests\N4\Balise_1-10000001_03_01_08_mod.xml on Wed Mar 28 15:30:51 2007
+
+End of DTD conformity checking.
+OK
+end of parsing time elapsed: 1 seconds
+ UDF -> CFG converter 
+Reading file ..\parser\telgen_1.udf
+
+ end of conversion, time elapsed: 0 seconds
+ CFG -> XML converter 
+reading data from file ..\parser\telgen.cfg
+
+ --------------> Scrambling eurotelegrams <----------------- 
+
+
+ --------------> Checking telegram overscrambling <----------------- 
+
+end of conversion, time elapsed: 0 seconds
+ copying udf file in output directory          1 fichier(s) copi‚(s).
+ copying tgm file in output directory          1 fichier(s) copi‚(s).
+
+
+ END OF COMPILATION total time: 1 seconds

@@ -1,0 +1,4 @@
+
+			<Balise name="Test_Bal1">
+						<Telegram type="LONG">F0 00 00 00 00 00 00 00 00 00 0F 00 00 00 04 00 00 00 00 00 00 62 48 1C 00 38 C7 4E 00</Telegram>
+			</Balise>
