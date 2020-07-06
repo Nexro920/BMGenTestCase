@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Input SYDB file: .\input\0100input_TestLine\TestLine_SyDB_V1.12.0.xml-->
+<!--Data of generation: Bcode_iTRNV-BMGenTool2_V1.0.2_Build_20200409_debug-->
+<LEU name="ED2">
+  <INPUT_BOARD id="1">
+    <SLOT>15</SLOT>
+    <GID>4ACF88AE197DE71E</GID>
+    <TYPE>04</TYPE>
+  </INPUT_BOARD>
+  <OUTPUT_BOARD>
+    <SLOT>19</SLOT>
+    <GID>787D8DA00B1C17E3</GID>
+    <TYPE>01</TYPE>
+    <TEL_number>7F</TEL_number>
+  </OUTPUT_BOARD>
+  <Output_balise id="1" telegram="LONG">
+    <Input>
+      <Channel>00</Channel>
+      <Number>01</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>02</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>03</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>04</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>05</Number>
+    </Input>
+    <Aspect>
+      <Mask>0XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 44 5D 0B 10 18 32 80 00 0B 10 3E 32 C0 00 08 00 00 00 02 24 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>10110XXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 44 5D 0B 10 18 32 80 00 0B 10 59 32 C0 00 28 00 00 00 85 1F 40 80 3D 4C 00 B5 00 15 40 05 2F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>110XXXXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 44 5D 0B 10 18 32 80 00 0B 10 50 32 C0 00 18 00 00 00 08 6A C0 05 84 08 00 B6 00 2C BF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>10101XXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 44 5D 0B 10 18 32 80 00 0B 10 59 32 C0 00 60 00 00 00 39 72 00 00 00 0C 00 B5 00 15 40 05 1F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Default_telegram>90 00 00 00 44 5D 0B 10 18 32 80 00 0B 10 3E 32 C0 00 08 00 00 80 00 00 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Default_telegram>
+  </Output_balise>
+  <Encoder mode="Signalling">
+    <TE_NUMBER>01</TE_NUMBER>
+    <TEMPO_T1>10</TEMPO_T1>
+    <TEMPO_T2>05</TEMPO_T2>
+    <SYNC_MASTER_BOARD>19</SYNC_MASTER_BOARD>
+    <NETWORK_GID>6B0B7B2B66E2348A</NETWORK_GID>
+    <FIP_ENCODER_PN>02</FIP_ENCODER_PN>
+    <FIP_SUB_NETWORK_ADD>00</FIP_SUB_NETWORK_ADD>
+    <SYSCKW_A>AE390B5A</SYSCKW_A>
+    <SYSCKW_B>C103589C</SYSCKW_B>
+    <SL_CHANGEOVER>03</SL_CHANGEOVER>
+  </Encoder>
+  <Network>
+    <Transmit_Channel>
+      <VFIP_ADD>01</VFIP_ADD>
+      <Application_Category>01</Application_Category>
+      <FSFB2_Subnet_Ad>FFFF</FSFB2_Subnet_Ad>
+      <FSFB2_SRC_ADD>0006</FSFB2_SRC_ADD>
+      <SID_A>5B26603C</SID_A>
+      <SID_B>64C54B3E</SID_B>
+      <SINIT_A>26AA6538</SINIT_A>
+      <SINIT_B>5C82653A</SINIT_B>
+      <DATAVER id="1">
+        <DATAVER_A>6DB31504</DATAVER_A>
+        <DATAVER_B>37540506</DATAVER_B>
+        <NUM_DATAVER>01</NUM_DATAVER>
+        <FSFB2_SRC_ADD>00FF</FSFB2_SRC_ADD>
+      </DATAVER>
+    </Transmit_Channel>
+  </Network>
+  <POSIXDATE_TPC>45A5D260</POSIXDATE_TPC>
+  <VERID_TPC>1222222</VERID_TPC>
+  <POSIXDATE_TSE>45A5D260</POSIXDATE_TSE>
+  <VERID_TSE>1444444</VERID_TSE>
+  <POSIXDATE_TE>45A5D260</POSIXDATE_TE>
+  <VERID_TE>1AAAAAA</VERID_TE>
+</LEU>

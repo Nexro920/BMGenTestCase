@@ -1,0 +1,68 @@
+﻿  <LEU ID="1" NAME="E1A">
+    <Beacon ID="4102" NAME="VB0102" TYPE="Reopening_Approach" NUM="1" VERSION="1" LINKED_SIGNAL="S0102">
+      <Variants_inputs>1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Variants_inputs>
+      <Message RANK="0">
+        <Variant_state>00000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 00 00 48 03 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 80 00 00 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="1">
+        <Combined_sections />
+        <Variant_state>0S000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 03 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 00 00 96 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="2">
+        <Combined_sections>
+          <Reopening_section>S0102|S0104</Reopening_section>
+        </Combined_sections>
+        <Variant_state>10000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 03 0B 10 18 32 80 00 4B 10 3E 32 C0 00 18 00 01 00 36 73 C0 31 91 C3 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="3">
+        <Combined_sections>
+          <Approach_section>S0104|S0108</Approach_section>
+        </Combined_sections>
+        <Variant_state>11000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 03 0B 10 18 32 80 00 4B 10 3E 32 C0 00 10 00 02 00 49 33 C0 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+    </Beacon>
+    <Beacon ID="4108" NAME="VB0108" TYPE="Reopening" NUM="2" VERSION="1" LINKED_SIGNAL="S0108">
+      <Variants_inputs>3 4 5 0 0 0 0 6 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Variants_inputs>
+      <Message RANK="0">
+        <Variant_state>00000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 00 00 48 06 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 80 00 00 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="1">
+        <Combined_sections />
+        <Variant_state>0PP0000PP00000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 06 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 00 00 96 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+    </Beacon>
+    <Beacon ID="4105" NAME="VB0101" TYPE="Reopening_Approach" NUM="4" VERSION="1" LINKED_SIGNAL="S0101">
+      <Variants_inputs>8 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Variants_inputs>
+      <Message RANK="0">
+        <Variant_state>00000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 00 00 48 04 8B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 80 00 00 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="1">
+        <Combined_sections />
+        <Variant_state>0S000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 04 8B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 00 00 96 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="2">
+        <Combined_sections>
+          <Reopening_section>S0101|S0103</Reopening_section>
+          <Overlap_section>S0103</Overlap_section>
+        </Combined_sections>
+        <Variant_state>10000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 04 8B 10 18 32 80 00 4B 10 3E 32 C0 00 18 00 01 00 36 73 C0 31 91 C3 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+      <Message RANK="3">
+        <Combined_sections>
+          <Reopening_section>S0101|S0103</Reopening_section>
+          <Approach_section>S0103|S0107</Approach_section>
+        </Combined_sections>
+        <Variant_state>11000000000000000000000000000000</Variant_state>
+        <Interoperable>90 00 7F 80 48 04 8B 10 18 32 80 00 4B 10 3E 32 C0 00 10 00 02 00 49 33 C0 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Interoperable>
+      </Message>
+    </Beacon>
+  </LEU>

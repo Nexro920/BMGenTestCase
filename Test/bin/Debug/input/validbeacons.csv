@@ -1,0 +1,10 @@
+C;Track_ID;Beacon;Type;Beacon_Name;Beacon_ID;Direction;Kp;Reference_Correction;Value_of_Gap;Laser_Correction;Distance_Between_Beacons;Beacon_CBTC_Variant_Associated;Beacon_Block_Mode;Beacon_tolerance_ID;Next_up_Calibration_Marker_ID;C_Delta_For_MinDist;C_Delta_For_MaxDist;Beacon_Installation_Side;Next_up_STIB_ID;GAP comments;Beacon_version;Belonged_line_id;Layout_for_docking;CHECK1;CHECK2
+V;1..255;Beacon;"Marker_RB Marker_MTIB Static";"Alphanumeric BC_<Beacon_ID>";1бн7000;"up (=0) down (=1) up_down=2)";0..100000,000;-100000,00..100000,000;N/A;-100000,00..100000,000;0..100000,000;"NO (=0) YES (=1)";"NO_BM_VARIANT (=0)BM_VARIANT_IN_UP (=1) BM_VARIANT_IN_DN (=2)";0..255;0бн7000;-100000,00..100000,000;-100000,00..100000,000;"center (=N/A) left (=1) right (=2)";N/A;text;0~255;1~255;0~3;OK/NOK;OK/NOK
+V;2;Beacon;Marker_RB;RB_204 ;1;2;      44,4    ;0;N/A;0;0;0;0;1;0;0;0;N/A;N/A;N/A;0;1;0;;
+V;2;Beacon;Marker_RB;B07CB;7000;2;     0,46    ;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;RB_206;2;2;       0.46   ;0;N/A;0;0;0;0;1;0;0;0;N/A;N/A;N/A;1;1;0;;
+V;2;Beacon;Marker_RB;RB_214;6999;2;    2987,40;0;N/A;0;0;0;2;1;0;0;0;N/A;N/A;N/A;254;1;0;;
+V;2;Beacon;Marker_RB;B07CA;3000;2;     176,40  ;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;0;1;0;;
+V;1;Beacon;Marker_RB; B02D1;1000;2;    274     ;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;0;1;0;;
+V;255;Beacon;Marker_MTIB;RB_236;17;2;  429,61  ;0;N/A;0;0;0;2;1;0;0;0;N/A;N/A;N/A;0;1;0;;
+V;2;Beacon;Marker_RB;RB_246;246;2;     0.03    ;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;0;1;0;;

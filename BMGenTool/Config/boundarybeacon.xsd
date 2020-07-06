@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--被XMLSpy vW3C Schema产生的2012 (http://www.altova.com)-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="typebase.xsd"/>
+	<xs:element name="Line_boundary_BM_beacons">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Beacon" minOccurs="0" maxOccurs="100">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Id" type="INT_1_65535"/>
+							<xs:element name="Name" type="xs:string"/>
+							<xs:element name="Version" type="INT_0_255" minOccurs="0"/>
+							<xs:element name="BMB_SDDB_distance" type="DEC_0_2048_Maxfra2"/>
+							<xs:element name="Upstream_path" minOccurs="0" maxOccurs="10">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="Point" minOccurs="0" maxOccurs="10">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="Id" type="INT_1_65535"/>
+													<xs:element name="Position" type="POS_N_R"/>
+													<xs:element name="Orientation_in_route" type="POS_Con_Div"/>
+												</xs:sequence>
+												<xs:attribute name="NAME" use="required" type="xs:string"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,5877 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Input SYDB file: D:\00004ToolWorks\BMGen\SourceCode\Test\bin\Debug\input\0100input_TestLine\TestLine_SyDB_V1.12.0.xml-->
+<!--Data of generation: Bcode_iTRNV-BMGenTool2_V1.0.0_Build_20190422-->
+<Block_mode_beacons LINE_ID="2">
+  <Beacon NAME="B13C" TYPE="Reopening" VERSION="0">
+    <Id>106</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC1">
+      <Id>1</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>43.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S13C">
+      <Id>105</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S13C|S19C">
+        <Length>717.370</Length>
+        <Destination_signal NAME="S19C">
+          <Id>103</Id>
+          <Overlap ID="133">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B10C" TYPE="Reopening" VERSION="0">
+    <Id>1654</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC1">
+      <Id>1</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>27.220</BMB_SDDB_distance>
+    <Origin_signal NAME="S10C">
+      <Id>97</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S10C|P14C-N|P16C-N|S19B">
+        <Length>1133.510</Length>
+        <Point NAME="P14C">
+          <Id>18</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P16C">
+          <Id>63</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S19B">
+          <Id>518</Id>
+          <Overlap ID="317">
+            <Distance>40.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S10C</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14C_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14C_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P16C_N</Object_name>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P16C_R</Object_name>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B01C" TYPE="Reopening" VERSION="0">
+    <Id>4554</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC1">
+      <Id>1</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>1.000</BMB_SDDB_distance>
+    <Origin_signal NAME="X01C">
+      <Id>532</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="X01C|S04C">
+        <Length>93.480</Length>
+        <Destination_signal NAME="S04C">
+          <Id>216</Id>
+          <Overlap ID="324">
+            <Distance>50.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S04C|P04C-R">
+              <Point NAME="P04C">
+                <Id>40</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X01C</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B35C" TYPE="Reopening" VERSION="0">
+    <Id>2210</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC2">
+      <Id>2</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S35C">
+      <Id>99</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S35C|P01C-N|S10C">
+        <Length>372.460</Length>
+        <Point NAME="P01C">
+          <Id>19</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S10C">
+          <Id>97</Id>
+          <Overlap ID="70">
+            <Distance>45.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S10C|P14C-N|P16C-N">
+              <Point NAME="P14C">
+                <Id>18</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P16C">
+                <Id>63</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S10C|P14C-R">
+              <Point NAME="P14C">
+                <Id>18</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S35C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01C_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01C_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14C_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14C_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P16C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P16C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B19C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>82</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC2">
+      <Id>2</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>33.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S19C">
+      <Id>103</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S19C|S25C">
+        <Length>1307.430</Length>
+        <Destination_signal NAME="S25C">
+          <Id>102</Id>
+          <Overlap ID="160">
+            <Distance>39.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S25C">
+      <Id>102</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S25C|S27C">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S27C">
+          <Id>101</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S19C</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25C</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B27C" TYPE="Reopening" VERSION="0">
+    <Id>52</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC2">
+      <Id>2</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S27C">
+      <Id>101</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S27C|S31C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S31C">
+          <Id>100</Id>
+          <Overlap ID="177">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S27C</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B25C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2212</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC3">
+      <Id>3</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S25C">
+      <Id>102</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S25C|S27C">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S27C">
+          <Id>101</Id>
+          <Overlap ID="166">
+            <Distance>39.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S27C">
+      <Id>101</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S27C|S31C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S31C">
+          <Id>100</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S27C</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B31C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2236</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC3">
+      <Id>3</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S31C">
+      <Id>100</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S31C|S35C">
+        <Length>317.500</Length>
+        <Destination_signal NAME="S35C">
+          <Id>99</Id>
+          <Overlap ID="186">
+            <Distance>38.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S35C">
+      <Id>99</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S35C|P01C-N|S10C">
+        <Length>372.460</Length>
+        <Point NAME="P01C">
+          <Id>19</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S10C">
+          <Id>97</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S31C</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S35C</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01C_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01C_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B13C1" TYPE="Approach" VERSION="0">
+    <Id>116</Id>
+    <Direction>Down</Direction>
+    <LEU NAME="EC3">
+      <Id>3</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>43.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S13C">
+      <Id>105</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S13C|S19C">
+        <Length>717.370</Length>
+        <Destination_signal NAME="S19C">
+          <Id>103</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13C</Object_name>
+        <Input_rank>9</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B41C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2315</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC4">
+      <Id>4</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S41C">
+      <Id>4</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S41C|P03C-N|P20C-N|S33C">
+        <Length>528.250</Length>
+        <Point NAME="P03C">
+          <Id>3</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20C">
+          <Id>66</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S33C">
+          <Id>6</Id>
+          <Overlap ID="182">
+            <Distance>39.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S33C">
+      <Id>6</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S33C|S29C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S29C">
+          <Id>7</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S41C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03C_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03C_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20C_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20C_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S33C</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B29C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>41</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC4">
+      <Id>4</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S29C">
+      <Id>7</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S29C|S23C">
+        <Length>1308.470</Length>
+        <Destination_signal NAME="S23C">
+          <Id>8</Id>
+          <Overlap ID="152">
+            <Distance>66.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S23C">
+      <Id>8</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S23C|S21C">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S21C">
+          <Id>9</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S29C</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23C</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B21C" TYPE="Reopening" VERSION="0">
+    <Id>71</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC4">
+      <Id>4</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S21C">
+      <Id>9</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S21C|S17C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S17C">
+          <Id>10</Id>
+          <Overlap ID="120">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S21C</Object_name>
+        <Input_rank>9</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B33C" TYPE="Reopening" VERSION="0">
+    <Id>2273</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC5">
+      <Id>5</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S33C">
+      <Id>6</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S33C|S29C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S29C">
+          <Id>7</Id>
+          <Overlap ID="171">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S33C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B23C" TYPE="Reopening_Approach" VERSION="0">
+    <Id>61</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC5">
+      <Id>5</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S23C">
+      <Id>8</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S23C|S21C">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S21C">
+          <Id>9</Id>
+          <Overlap ID="144">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S21C">
+      <Id>9</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S21C|S17C">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S17C">
+          <Id>10</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23C</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S21C</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B17C" TYPE="Reopening" VERSION="0">
+    <Id>1639</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC5">
+      <Id>5</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S17C">
+      <Id>10</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S17C|S02D">
+        <Length>1298.590</Length>
+        <Destination_signal NAME="S02D">
+          <Id>11</Id>
+          <Overlap ID="10">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17C</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B08C" TYPE="Reopening" VERSION="0">
+    <Id>4508</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC5">
+      <Id>5</Id>
+      <BM_beacon_output_number>4</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>35.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S08C">
+      <Id>2</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S08C|P02C-N|P12C-N|S41C">
+        <Length>362.810</Length>
+        <Point NAME="P02C">
+          <Id>1</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12C">
+          <Id>2</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S41C">
+          <Id>4</Id>
+          <Overlap ID="191">
+            <Distance>50.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S41C|P03C-N|P20C-N">
+              <Point NAME="P03C">
+                <Id>3</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P20C">
+                <Id>66</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S08C</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02C" TYPE="Reopening" VERSION="0">
+    <Id>1160</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC6">
+      <Id>6</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>23.600</BMB_SDDB_distance>
+    <Origin_signal NAME="S02C">
+      <Id>218</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S02C|P08C-R|P10C-R|P12C-R|S41C">
+        <Length>278.410</Length>
+        <Point NAME="P08C">
+          <Id>42</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10C">
+          <Id>41</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12C">
+          <Id>2</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S41C">
+          <Id>4</Id>
+          <Overlap ID="191">
+            <Distance>50.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S41C|P03C-N|P20C-N">
+              <Point NAME="P03C">
+                <Id>3</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P20C">
+                <Id>66</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S02C</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08C_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08C_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B04C" TYPE="Reopening" VERSION="0">
+    <Id>1177</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC6">
+      <Id>6</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>23.600</BMB_SDDB_distance>
+    <Origin_signal NAME="S04C">
+      <Id>216</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S04C|P04C-N|P10C-N|P12C-R|S41C">
+        <Length>278.410</Length>
+        <Point NAME="P04C">
+          <Id>40</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10C">
+          <Id>41</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12C">
+          <Id>2</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S41C">
+          <Id>4</Id>
+          <Overlap ID="191">
+            <Distance>50.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S41C|P03C-N|P20C-N">
+              <Point NAME="P03C">
+                <Id>3</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P20C">
+                <Id>66</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S04C</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04C_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04C_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B08C1" TYPE="Approach" VERSION="0">
+    <Id>4507</Id>
+    <Direction>Up</Direction>
+    <LEU NAME="EC6">
+      <Id>6</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>35.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S08C">
+      <Id>2</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S08C|P02C-N|P12C-N|S41C">
+        <Length>362.810</Length>
+        <Point NAME="P02C">
+          <Id>1</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12C">
+          <Id>2</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S41C">
+          <Id>4</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S08C</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12C_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12C_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B04C1" TYPE="Reopening" VERSION="0">
+    <Id>4553</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EC6">
+      <Id>6</Id>
+      <BM_beacon_output_number>4</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>185.950</BMB_SDDB_distance>
+    <Origin_signal NAME="X04C">
+      <Id>533</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="X04C|S02C">
+        <Length>93.480</Length>
+        <Destination_signal NAME="S02C">
+          <Id>218</Id>
+          <Overlap ID="325">
+            <Distance>15.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S02C|P08C-R">
+              <Point NAME="P08C">
+                <Id>42</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X04C</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08C_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08C_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>107</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED1">
+      <Id>7</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S02D">
+      <Id>11</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S02D|S04D">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S04D">
+          <Id>12</Id>
+          <Overlap ID="25">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S04D">
+      <Id>12</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S04D|S08D">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S08D">
+          <Id>13</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S02D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S04D</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B23D" TYPE="Reopening" VERSION="0">
+    <Id>2238</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED1">
+      <Id>7</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>25.940</BMB_SDDB_distance>
+    <Origin_signal NAME="S23D">
+      <Id>223</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S23D|P09D-R|P07D-R|P01D-N|S13D">
+        <Length>584.430</Length>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P07D">
+          <Id>6</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P01D">
+          <Id>7</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S13D">
+          <Id>19</Id>
+          <Overlap ID="97">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S23D|P09D-N|S19D">
+        <Length>38.680</Length>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S19D">
+          <Id>359</Id>
+          <Overlap ID="134">
+            <Distance>29.710</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S19D|P05D-N">
+              <Point NAME="P05D">
+                <Id>47</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23D</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09D_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09D_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P05D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P05D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B34D" TYPE="Reopening" VERSION="0">
+    <Id>2234</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED2">
+      <Id>8</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>21.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S34D">
+      <Id>222</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-N|S06D">
+        <Length>1291.250</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S06D">
+          <Id>106</Id>
+          <Overlap ID="41">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-N|S30D">
+        <Length>34.560</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S30D">
+          <Id>358</Id>
+          <Overlap ID="175">
+            <Distance>29.710</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S30D|P10D-N">
+              <Point NAME="P10D">
+                <Id>44</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-R|XAY">
+        <Length>566.320</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="XAY">
+          <Id>566</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S34D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06D_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06D_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B04D" TYPE="Reopening" VERSION="0">
+    <Id>117</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED3">
+      <Id>9</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S04D">
+      <Id>12</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S04D|S08D">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S08D">
+          <Id>13</Id>
+          <Overlap ID="55">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S04D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02D1" TYPE="Approach" VERSION="0">
+    <Id>1641</Id>
+    <Direction>Up</Direction>
+    <LEU NAME="ED3">
+      <Id>9</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S02D">
+      <Id>11</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S02D|S04D">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S04D">
+          <Id>12</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S02D</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B23D1" TYPE="Approach" VERSION="0">
+    <Id>2154</Id>
+    <Direction>Up</Direction>
+    <LEU NAME="ED4">
+      <Id>10</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>25.940</BMB_SDDB_distance>
+    <Origin_signal NAME="S23D">
+      <Id>223</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S23D|P09D-R|P07D-R|P01D-N|S13D">
+        <Length>584.430</Length>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P07D">
+          <Id>6</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P01D">
+          <Id>7</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S13D">
+          <Id>19</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S23D|P09D-N|S19D">
+        <Length>38.680</Length>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S19D">
+          <Id>359</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B05D" TYPE="Reopening" VERSION="0">
+    <Id>223</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED5">
+      <Id>11</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S05D">
+      <Id>21</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S05D|S02E">
+        <Length>455.410</Length>
+        <Destination_signal NAME="S02E">
+          <Id>22</Id>
+          <Overlap ID="11">
+            <Distance>29.460</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S05D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B14D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>143</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED5">
+      <Id>11</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S14D">
+      <Id>14</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S14D|S20D">
+        <Length>530.000</Length>
+        <Destination_signal NAME="S20D">
+          <Id>15</Id>
+          <Overlap ID="139">
+            <Distance>39.840</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S20D">
+      <Id>15</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S20D|P04D-N|P08D-N|S25D">
+        <Length>316.960</Length>
+        <Point NAME="P04D">
+          <Id>4</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08D">
+          <Id>5</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S25D">
+          <Id>17</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S20D|P04D-R|P21D-N|P10D-R|P14D-N|S23D">
+        <Length>335.900</Length>
+        <Point NAME="P04D">
+          <Id>4</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P21D">
+          <Id>71</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10D">
+          <Id>44</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S23D">
+          <Id>223</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S14D</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S20D</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04D_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04D_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P21D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P21D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B13D1" TYPE="Approach" VERSION="0">
+    <Id>2344</Id>
+    <Direction>Up</Direction>
+    <LEU NAME="ED5">
+      <Id>11</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S13D">
+      <Id>19</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S13D|P16D-N|P18D-N|S09D">
+        <Length>550.000</Length>
+        <Point NAME="P16D">
+          <Id>52</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P18D">
+          <Id>68</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S09D">
+          <Id>20</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S13D|P16D-R|P17D-R|S29D">
+        <Length>721.040</Length>
+        <Point NAME="P16D">
+          <Id>52</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P17D">
+          <Id>53</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S29D">
+          <Id>360</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13D</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P16D_N</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P16D_R</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P18D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P18D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P17D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P17D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B20D" TYPE="Reopening" VERSION="0">
+    <Id>155</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED6">
+      <Id>12</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S20D">
+      <Id>15</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S20D|P04D-N|P08D-N|S25D">
+        <Length>316.960</Length>
+        <Point NAME="P04D">
+          <Id>4</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08D">
+          <Id>5</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S25D">
+          <Id>17</Id>
+          <Overlap ID="161">
+            <Distance>30.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S20D|P04D-R|P21D-N|P10D-R|P14D-N|S23D">
+        <Length>335.900</Length>
+        <Point NAME="P04D">
+          <Id>4</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P21D">
+          <Id>71</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10D">
+          <Id>44</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S23D">
+          <Id>223</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S20D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P21D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P21D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B13D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2279</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED6">
+      <Id>12</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S13D">
+      <Id>19</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S13D|P16D-N|P18D-N|S09D">
+        <Length>550.000</Length>
+        <Point NAME="P16D">
+          <Id>52</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P18D">
+          <Id>68</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S09D">
+          <Id>20</Id>
+          <Overlap ID="63">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S13D|P16D-R|P17D-R|S29D">
+        <Length>721.040</Length>
+        <Point NAME="P16D">
+          <Id>52</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P17D">
+          <Id>53</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S29D">
+          <Id>360</Id>
+          <Overlap ID="251">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S09D">
+      <Id>20</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S09D|S05D">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S05D">
+          <Id>21</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13D</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P16D_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P16D_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P18D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P18D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P17D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P17D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S09D</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B25D" TYPE="Reopening" VERSION="0">
+    <Id>177</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED7">
+      <Id>13</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S25D">
+      <Id>17</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S25D|P07D-N|P01D-N|S13D">
+        <Length>585.470</Length>
+        <Point NAME="P07D">
+          <Id>6</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P01D">
+          <Id>7</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S13D">
+          <Id>19</Id>
+          <Overlap ID="97">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B09D" TYPE="Reopening" VERSION="0">
+    <Id>209</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED7">
+      <Id>13</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S09D">
+      <Id>20</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S09D|S05D">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S05D">
+          <Id>21</Id>
+          <Overlap ID="34">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S09D</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B08D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2275</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED7">
+      <Id>13</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S08D">
+      <Id>13</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S08D|S14D">
+        <Length>396.770</Length>
+        <Destination_signal NAME="S14D">
+          <Id>14</Id>
+          <Overlap ID="104">
+            <Distance>29.460</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S14D">
+      <Id>14</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S14D|S20D">
+        <Length>530.000</Length>
+        <Destination_signal NAME="S20D">
+          <Id>15</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S08D</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S14D</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B32D" TYPE="Reopening" VERSION="0">
+    <Id>1394</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED8">
+      <Id>14</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>30.490</BMB_SDDB_distance>
+    <Origin_signal NAME="S32D">
+      <Id>110</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S32D|P12D-N|P06D-N|S06D">
+        <Length>1273.500</Length>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S06D">
+          <Id>106</Id>
+          <Overlap ID="41">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S32D|P12D-N|P06D-R|XAY">
+        <Length>548.570</Length>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="XAY">
+          <Id>566</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S32D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06D_R</Object_name>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B06D" TYPE="Reopening" VERSION="0">
+    <Id>128</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED8">
+      <Id>14</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.910</BMB_SDDB_distance>
+    <Origin_signal NAME="S06D">
+      <Id>106</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S06D|S13C">
+        <Length>1194.010</Length>
+        <Destination_signal NAME="S13C">
+          <Id>105</Id>
+          <Overlap ID="96">
+            <Distance>66.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S06D</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B07D" TYPE="Reopening" VERSION="0">
+    <Id>1660</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED8">
+      <Id>14</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>37.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S07D">
+      <Id>114</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S07D|P17D-N|P19D-N|S17D">
+        <Length>984.770</Length>
+        <Point NAME="P17D">
+          <Id>53</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P19D">
+          <Id>69</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S17D">
+          <Id>112</Id>
+          <Overlap ID="121">
+            <Distance>38.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S07D</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P17D_N</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P17D_R</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P19D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P19D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B17D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>194</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED9">
+      <Id>15</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>51.340</BMB_SDDB_distance>
+    <Origin_signal NAME="S17D">
+      <Id>112</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S17D|P03D-N|S32D">
+        <Length>283.290</Length>
+        <Point NAME="P03D">
+          <Id>22</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S32D">
+          <Id>110</Id>
+          <Overlap ID="180">
+            <Distance>45.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S32D" />
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S17D|P03D-R|P05D-R|P09D-N|S34D">
+        <Length>265.540</Length>
+        <Point NAME="P03D">
+          <Id>22</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P05D">
+          <Id>47</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S34D">
+          <Id>222</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S34D">
+      <Id>222</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-N|S06D">
+        <Length>1291.250</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S06D">
+          <Id>106</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-N|S30D">
+        <Length>34.560</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S30D">
+          <Id>358</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-R|XAY">
+        <Length>566.320</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="XAY">
+          <Id>566</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P05D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P05D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S34D</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>13</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06D_N</Object_name>
+      </Variant>
+      <Variant>
+        <Index>14</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06D_R</Object_name>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B01D" TYPE="Reopening" VERSION="0">
+    <Id>1692</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED9">
+      <Id>15</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>47.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S01D">
+      <Id>116</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S01D|S07D">
+        <Length>711.670</Length>
+        <Destination_signal NAME="S07D">
+          <Id>114</Id>
+          <Overlap ID="49">
+            <Distance>50.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S07D|P17D-N">
+              <Point NAME="P17D">
+                <Id>53</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S07D|P17D-R">
+              <Point NAME="P17D">
+                <Id>53</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S01D</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P17D_N</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P17D_R</Object_name>
+        <Input_rank>9</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B11D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>206</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED10">
+      <Id>16</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>581.340</BMB_SDDB_distance>
+    <Origin_signal NAME="S17D">
+      <Id>112</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S17D|P03D-N|S32D">
+        <Length>283.290</Length>
+        <Point NAME="P03D">
+          <Id>22</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S32D">
+          <Id>110</Id>
+          <Overlap ID="180">
+            <Distance>45.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S32D" />
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S17D|P03D-R|P05D-R|P09D-N|S34D">
+        <Length>265.540</Length>
+        <Point NAME="P03D">
+          <Id>22</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P05D">
+          <Id>47</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P09D">
+          <Id>46</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S34D">
+          <Id>222</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S34D">
+      <Id>222</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-N|S06D">
+        <Length>1291.250</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S06D">
+          <Id>106</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-N|S30D">
+        <Length>34.560</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S30D">
+          <Id>358</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S34D|P14D-R|P12D-R|P06D-R|XAY">
+        <Length>566.320</Length>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P12D">
+          <Id>21</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06D">
+          <Id>20</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="XAY">
+          <Id>566</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P05D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P05D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S34D</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>13</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06D_N</Object_name>
+      </Variant>
+      <Variant>
+        <Index>14</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06D_R</Object_name>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B01D1" TYPE="Approach" VERSION="0">
+    <Id>252</Id>
+    <Direction>Down</Direction>
+    <LEU NAME="ED10">
+      <Id>16</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>47.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S01D">
+      <Id>116</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S01D|S07D">
+        <Length>711.670</Length>
+        <Destination_signal NAME="S07D">
+          <Id>114</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S01D</Object_name>
+        <Input_rank>9</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B12D" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2331</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED11">
+      <Id>17</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>41.080</BMB_SDDB_distance>
+    <Origin_signal NAME="S12D">
+      <Id>199</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <Origin_signal NAME="S18D">
+      <Id>200</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S18D|P02D-N|S27D">
+        <Length>392.250</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S27D">
+          <Id>202</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S18D|P02D-R|P20D-N|P08D-R|S25D">
+        <Length>381.500</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20D">
+          <Id>70</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08D">
+          <Id>5</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S25D">
+          <Id>17</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S18D|P02D-R|P20D-R|P21D-R|P10D-R|P14D-N|S23D">
+        <Length>371.840</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20D">
+          <Id>70</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P21D">
+          <Id>71</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10D">
+          <Id>44</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S23D">
+          <Id>223</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S12D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S18D</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02D_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02D_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20D_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20D_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P21D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P21D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>13</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>14</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B18D" TYPE="Reopening" VERSION="0">
+    <Id>1147</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED12">
+      <Id>18</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S18D">
+      <Id>200</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S18D|P02D-N|S27D">
+        <Length>392.250</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S27D">
+          <Id>202</Id>
+          <Overlap ID="167">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S18D|P02D-R|P20D-N|P08D-R|S25D">
+        <Length>381.500</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20D">
+          <Id>70</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08D">
+          <Id>5</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S25D">
+          <Id>17</Id>
+          <Overlap ID="161">
+            <Distance>30.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S18D|P02D-R|P20D-R|P21D-R|P10D-R|P14D-N|S23D">
+        <Length>371.840</Length>
+        <Point NAME="P02D">
+          <Id>36</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20D">
+          <Id>70</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P21D">
+          <Id>71</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10D">
+          <Id>44</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P14D">
+          <Id>45</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S23D">
+          <Id>223</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S18D</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02D_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02D_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20D_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20D_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P21D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P21D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14D_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>13</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14D_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B27D" TYPE="Reopening" VERSION="0">
+    <Id>1167</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="ED12">
+      <Id>18</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S27D">
+      <Id>202</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S27D|P01D-R|S13D">
+        <Length>585.490</Length>
+        <Point NAME="P01D">
+          <Id>7</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S13D">
+          <Id>19</Id>
+          <Overlap ID="97">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S27D</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01D_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01D_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B20E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>1187</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE1">
+      <Id>19</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>22.980</BMB_SDDB_distance>
+    <Origin_signal NAME="S20E">
+      <Id>227</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S20E|P08E-R|P06E-R|S10E">
+        <Length>639.440</Length>
+        <Point NAME="P08E">
+          <Id>49</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06E">
+          <Id>23</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S10E">
+          <Id>118</Id>
+          <Overlap ID="72">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S10E">
+      <Id>118</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S10E|S06E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S06E">
+          <Id>117</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S20E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08E_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08E_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S10E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B35E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>1201</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE2">
+      <Id>20</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>22.360</BMB_SDDB_distance>
+    <Origin_signal NAME="S35E">
+      <Id>228</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S35E|P07E-N|P03E-R|P01E-R|S17E">
+        <Length>1064.220</Length>
+        <Point NAME="P07E">
+          <Id>51</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P03E">
+          <Id>50</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P01E">
+          <Id>9</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S17E">
+          <Id>31</Id>
+          <Overlap ID="122">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S25E">
+      <Id>29</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S25E|S21E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S21E">
+          <Id>30</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S35E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07E_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07E_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03E_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03E_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="Bentry" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2340</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE3">
+      <Id>21</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>44.920</BMB_SDDB_distance>
+    <Origin_signal NAME="Sentry">
+      <Id>363</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="Sentry|P09E-R|S29E">
+        <Length>1803.800</Length>
+        <Point NAME="P09E">
+          <Id>64</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S29E">
+          <Id>122</Id>
+          <Overlap ID="172">
+            <Distance>38.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S13E">
+      <Id>126</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S13E|S15E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S15E">
+          <Id>125</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>Sentry</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="Bentry2" TYPE="Reopening" VERSION="0">
+    <Id>2342</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE3">
+      <Id>21</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>44.920</BMB_SDDB_distance>
+    <Origin_signal NAME="Sentry2">
+      <Id>365</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="Sentry2|P10E-R|S27E">
+        <Length>1333.030</Length>
+        <Point NAME="P10E">
+          <Id>65</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S27E">
+          <Id>28</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>Sentry2</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02E1" TYPE="Approach" VERSION="0">
+    <Id>2317</Id>
+    <Direction>Up</Direction>
+    <LEU NAME="EE4">
+      <Id>22</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S02E">
+      <Id>22</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S02E|S04E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S04E">
+          <Id>23</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S02E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B04E" TYPE="Reopening" VERSION="0">
+    <Id>2329</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE4">
+      <Id>22</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S04E">
+      <Id>23</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S04E|S08E">
+        <Length>161.670</Length>
+        <Destination_signal NAME="S08E">
+          <Id>24</Id>
+          <Overlap ID="56">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S04E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B21E" TYPE="Reopening" VERSION="0">
+    <Id>321</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE4">
+      <Id>22</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S21E">
+      <Id>30</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S21E|S17E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S17E">
+          <Id>31</Id>
+          <Overlap ID="122">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S21E</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B11E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>1645</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE4">
+      <Id>22</Id>
+      <BM_beacon_output_number>4</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S11E">
+      <Id>32</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <Origin_signal NAME="S09E">
+      <Id>33</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S11E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S09E</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>1291</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE5">
+      <Id>23</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S02E">
+      <Id>22</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S02E|S04E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S04E">
+          <Id>23</Id>
+          <Overlap ID="26">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S04E">
+      <Id>23</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S04E|S08E">
+        <Length>161.670</Length>
+        <Destination_signal NAME="S08E">
+          <Id>24</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S02E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S04E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B08E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2285</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE5">
+      <Id>23</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S08E">
+      <Id>24</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S08E|S12E">
+        <Length>495.100</Length>
+        <Destination_signal NAME="S12E">
+          <Id>25</Id>
+          <Overlap ID="88">
+            <Distance>38.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S12E">
+      <Id>25</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S12E|P02E-N|P20E-N|S31E">
+        <Length>297.160</Length>
+        <Point NAME="P02E">
+          <Id>8</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20E">
+          <Id>67</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S31E">
+          <Id>27</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S12E|P02E-R|P04E-R|P08E-N|S35E">
+        <Length>293.030</Length>
+        <Point NAME="P02E">
+          <Id>8</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P04E">
+          <Id>48</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08E">
+          <Id>49</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S35E">
+          <Id>228</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S08E</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S12E</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02E_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02E_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B05E" TYPE="Reopening" VERSION="0">
+    <Id>373</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE5">
+      <Id>23</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S05E">
+      <Id>34</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S05E</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B12E" TYPE="Reopening" VERSION="0">
+    <Id>2287</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE6">
+      <Id>24</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S12E">
+      <Id>25</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S12E|P02E-N|P20E-N|S31E">
+        <Length>297.160</Length>
+        <Point NAME="P02E">
+          <Id>8</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P20E">
+          <Id>67</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S31E">
+          <Id>27</Id>
+          <Overlap ID="178">
+            <Distance>70.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S31E|P01E-N">
+              <Point NAME="P01E">
+                <Id>9</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Convergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S12E|P02E-R|P04E-R|P08E-N|S35E">
+        <Length>293.030</Length>
+        <Point NAME="P02E">
+          <Id>8</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P04E">
+          <Id>48</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P08E">
+          <Id>49</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S35E">
+          <Id>228</Id>
+          <Overlap ID="187">
+            <Distance>29.710</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S35E|P07E-N|P03E-N">
+              <Point NAME="P07E">
+                <Id>51</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P03E">
+                <Id>50</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S12E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02E_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02E_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P20E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P20E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>10</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>11</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>12</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>13</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>14</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P03E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>15</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P03E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B25E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>311</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE6">
+      <Id>24</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S25E">
+      <Id>29</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S25E|S21E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S21E">
+          <Id>30</Id>
+          <Overlap ID="145">
+            <Distance>29.460</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S21E">
+      <Id>30</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S21E|S17E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S17E">
+          <Id>31</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25E</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S21E</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B17E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>335</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE7">
+      <Id>25</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>32.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S17E">
+      <Id>31</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <Origin_signal NAME="S11E">
+      <Id>32</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S11E</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B31E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>293</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE7">
+      <Id>25</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>25.370</BMB_SDDB_distance>
+    <Origin_signal NAME="S31E">
+      <Id>27</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S31E|P01E-N|S25E">
+        <Length>342.720</Length>
+        <Point NAME="P01E">
+          <Id>9</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S25E">
+          <Id>29</Id>
+          <Overlap ID="162">
+            <Distance>29.460</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S25E">
+      <Id>29</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S25E|S21E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S21E">
+          <Id>30</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S31E</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S25E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B09E" TYPE="Reopening" VERSION="0">
+    <Id>359</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE7">
+      <Id>25</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>42.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S09E">
+      <Id>33</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S09E</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B06E" TYPE="Reopening" VERSION="0">
+    <Id>254</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE8">
+      <Id>26</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>29.350</BMB_SDDB_distance>
+    <Origin_signal NAME="S06E">
+      <Id>117</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S06E|S01D">
+        <Length>463.980</Length>
+        <Destination_signal NAME="S01D">
+          <Id>116</Id>
+          <Overlap ID="3">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S06E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B29E" TYPE="Reopening" VERSION="0">
+    <Id>1662</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE8">
+      <Id>26</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>41.160</BMB_SDDB_distance>
+    <Origin_signal NAME="S29E">
+      <Id>122</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S29E|P05E-N|S18E">
+        <Length>267.160</Length>
+        <Point NAME="P05E">
+          <Id>24</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S18E">
+          <Id>120</Id>
+          <Overlap ID="128">
+            <Distance>50.000</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S18E" />
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S29E|P05E-R|P07E-R|S20E">
+        <Length>261.900</Length>
+        <Point NAME="P05E">
+          <Id>24</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P07E">
+          <Id>51</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S20E">
+          <Id>227</Id>
+          <Overlap ID="140">
+            <Distance>29.710</Distance>
+            <Switch_position>Normal</Switch_position>
+            <Path NAME="S20E|P08E-N|P04E-N">
+              <Point NAME="P08E">
+                <Id>49</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+              <Point NAME="P04E">
+                <Id>48</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S29E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P05E_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P05E_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>8</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>9</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B07E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>368</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE8">
+      <Id>26</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>41.980</BMB_SDDB_distance>
+    <Origin_signal NAME="S07E">
+      <Id>127</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S07E|P09E-N|S13E">
+        <Length>568.630</Length>
+        <Point NAME="P09E">
+          <Id>64</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S13E">
+          <Id>126</Id>
+          <Overlap ID="98">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S13E">
+      <Id>126</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S13E|S15E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S15E">
+          <Id>125</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S07E</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B10E" TYPE="Reopening" VERSION="0">
+    <Id>268</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE9">
+      <Id>27</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>39.350</BMB_SDDB_distance>
+    <Origin_signal NAME="S10E">
+      <Id>118</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S10E|S06E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S06E">
+          <Id>117</Id>
+          <Overlap ID="42">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S10E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B19E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>330</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE9">
+      <Id>27</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>40.390</BMB_SDDB_distance>
+    <Origin_signal NAME="S19E">
+      <Id>124</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S19E|S23E">
+        <Length>242.600</Length>
+        <Destination_signal NAME="S23E">
+          <Id>123</Id>
+          <Overlap ID="153">
+            <Distance>51.290</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S23E">
+      <Id>123</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S23E|S29E">
+        <Length>530.000</Length>
+        <Destination_signal NAME="S29E">
+          <Id>122</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S19E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23E</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B13E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>354</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE9">
+      <Id>27</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>50.390</BMB_SDDB_distance>
+    <Origin_signal NAME="S13E">
+      <Id>126</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S13E|S15E">
+        <Length>550.000</Length>
+        <Destination_signal NAME="S15E">
+          <Id>125</Id>
+          <Overlap ID="111">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S15E">
+      <Id>125</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S15E|S19E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S19E">
+          <Id>124</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S13E</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S15E</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B23E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>1664</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE10">
+      <Id>28</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>41.160</BMB_SDDB_distance>
+    <Origin_signal NAME="S23E">
+      <Id>123</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S23E|S29E">
+        <Length>530.000</Length>
+        <Destination_signal NAME="S29E">
+          <Id>122</Id>
+          <Overlap ID="172">
+            <Distance>38.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S29E">
+      <Id>122</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S29E|P05E-N|S18E">
+        <Length>267.160</Length>
+        <Point NAME="P05E">
+          <Id>24</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S18E">
+          <Id>120</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S29E|P05E-R|P07E-R|S20E">
+        <Length>261.900</Length>
+        <Point NAME="P05E">
+          <Id>24</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P07E">
+          <Id>51</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S20E">
+          <Id>227</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S23E</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S29E</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P05E_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P05E_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P07E_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P07E_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B15E" TYPE="Reopening" VERSION="0">
+    <Id>344</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE10">
+      <Id>28</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>50.390</BMB_SDDB_distance>
+    <Origin_signal NAME="S15E">
+      <Id>125</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S15E|S19E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S19E">
+          <Id>124</Id>
+          <Overlap ID="135">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S15E</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B18E" TYPE="Reopening_Approach" VERSION="0">
+    <Id>2214</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EE10">
+      <Id>28</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>27.610</BMB_SDDB_distance>
+    <Origin_signal NAME="S18E">
+      <Id>120</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S18E|P06E-N|S10E">
+        <Length>634.180</Length>
+        <Point NAME="P06E">
+          <Id>23</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S10E">
+          <Id>118</Id>
+          <Overlap ID="72">
+            <Distance>24.710</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S10E">
+      <Id>118</Id>
+      <Type_function>Spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S10E|S06E">
+        <Length>167.370</Length>
+        <Destination_signal NAME="S06E">
+          <Id>117</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S18E</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06E_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06E_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S10E</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B06B" TYPE="Reopening" VERSION="0">
+    <Id>4509</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB1">
+      <Id>29</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>2.500</BMB_SDDB_distance>
+    <Origin_signal NAME="S06B">
+      <Id>512</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S06B|P02B-R|P04B-R|S14B">
+        <Length>322.000</Length>
+        <Point NAME="P02B">
+          <Id>155</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P04B">
+          <Id>151</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S14B">
+          <Id>503</Id>
+          <Overlap ID="309">
+            <Distance>70.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S06B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02B_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02B_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04B_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04B_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B08B" TYPE="Reopening" VERSION="0">
+    <Id>4500</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB1">
+      <Id>29</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>3.000</BMB_SDDB_distance>
+    <Origin_signal NAME="S08B">
+      <Id>501</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S08B|P06B-N|P04B-N|S14B">
+        <Length>322.000</Length>
+        <Point NAME="P06B">
+          <Id>150</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P04B">
+          <Id>151</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S14B">
+          <Id>503</Id>
+          <Overlap ID="309">
+            <Distance>70.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S08B</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06B_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06B_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P04B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P04B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B14B" TYPE="Reopening_Approach" VERSION="0">
+    <Id>4501</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB2">
+      <Id>30</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>99.000</BMB_SDDB_distance>
+    <Origin_signal NAME="S14B">
+      <Id>503</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S14B|S22B">
+        <Length>1268.630</Length>
+        <Destination_signal NAME="S22B">
+          <Id>505</Id>
+          <Overlap ID="312">
+            <Distance>50.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S22B|P10B-N">
+              <Point NAME="P10B">
+                <Id>152</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S22B|P10B-R">
+              <Point NAME="P10B">
+                <Id>152</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S22B">
+      <Id>505</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S22B|P10B-N|S27B">
+        <Length>303.690</Length>
+        <Point NAME="P10B">
+          <Id>152</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S27B">
+          <Id>507</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S14B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10B_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10B_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S22B</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B27B" TYPE="Reopening_Approach" VERSION="0">
+    <Id>4504</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB3">
+      <Id>31</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>24.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S27B">
+      <Id>507</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S27B|P11B-N|S17B">
+        <Length>424.310</Length>
+        <Point NAME="P11B">
+          <Id>153</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S17B">
+          <Id>509</Id>
+          <Overlap ID="316">
+            <Distance>70.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S17B">
+      <Id>509</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S17B|P01B-N|S08C">
+        <Length>767.370</Length>
+        <Point NAME="P01B">
+          <Id>154</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S08C">
+          <Id>2</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S27B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P11B_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P11B_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17B</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B22B" TYPE="Reopening" VERSION="0">
+    <Id>4502</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB4">
+      <Id>32</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>3.000</BMB_SDDB_distance>
+    <Origin_signal NAME="S22B">
+      <Id>505</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S22B|P10B-N|S27B">
+        <Length>303.690</Length>
+        <Point NAME="P10B">
+          <Id>152</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S27B">
+          <Id>507</Id>
+          <Overlap ID="319">
+            <Distance>50.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S27B|P11B-N">
+              <Point NAME="P11B">
+                <Id>153</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S27B|P11B-R">
+              <Point NAME="P11B">
+                <Id>153</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S22B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10B_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10B_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P11B_N</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P11B_R</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B17B" TYPE="Reopening" VERSION="0">
+    <Id>4506</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB4">
+      <Id>32</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>34.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S17B">
+      <Id>509</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S17B|P01B-N|S08C">
+        <Length>767.370</Length>
+        <Point NAME="P01B">
+          <Id>154</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S08C">
+          <Id>2</Id>
+          <Overlap ID="320">
+            <Distance>40.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S17B</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P01B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P01B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B16B1" TYPE="Approach" VERSION="0">
+    <Id>4512</Id>
+    <Direction>Down</Direction>
+    <LEU NAME="EB5">
+      <Id>33</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>4.000</BMB_SDDB_distance>
+    <Origin_signal NAME="SJ1B">
+      <Id>528</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="SJ1B|SJ2B">
+        <Length>400.000</Length>
+        <Destination_signal NAME="SJ2B">
+          <Id>529</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>SJ1B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B10B" TYPE="Reopening" VERSION="0">
+    <Id>4510</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB5">
+      <Id>33</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>3.000</BMB_SDDB_distance>
+    <Origin_signal NAME="S10B">
+      <Id>513</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S10B|P08B-N|P02B-N|S02B">
+        <Length>352.000</Length>
+        <Point NAME="P08B">
+          <Id>156</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P02B">
+          <Id>155</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S02B">
+          <Id>511</Id>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S10B|P08B-R|P06B-R|S04B">
+        <Length>352.000</Length>
+        <Point NAME="P08B">
+          <Id>156</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P06B">
+          <Id>150</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S04B">
+          <Id>500</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S10B</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08B_N</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08B_R</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P02B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P02B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P06B_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P06B_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B19B1" TYPE="Approach" VERSION="0">
+    <Id>4515</Id>
+    <Direction>Down</Direction>
+    <LEU NAME="EB5">
+      <Id>33</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>34.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S19B">
+      <Id>518</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S19B|P09B-N|S26B">
+        <Length>410.680</Length>
+        <Point NAME="P09B">
+          <Id>159</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S26B">
+          <Id>516</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S19B</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B16B" TYPE="Reopening" VERSION="0">
+    <Id>4511</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB6">
+      <Id>34</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>34.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S16B">
+      <Id>514</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S16B|S10B">
+        <Length>448.000</Length>
+        <Destination_signal NAME="S10B">
+          <Id>513</Id>
+          <Overlap ID="308">
+            <Distance>50.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S10B|P08B-N">
+              <Point NAME="P08B">
+                <Id>156</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S10B|P08B-R">
+              <Point NAME="P08B">
+                <Id>156</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S16B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P08B_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P08B_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B26B" TYPE="Reopening" VERSION="0">
+    <Id>4513</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB6">
+      <Id>34</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>3.000</BMB_SDDB_distance>
+    <Origin_signal NAME="S26B">
+      <Id>516</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S26B|P12B-N|P14B-N|SJ1B">
+        <Length>424.320</Length>
+        <Point NAME="P12B">
+          <Id>158</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P14B">
+          <Id>157</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="SJ1B">
+          <Id>528</Id>
+          <Overlap ID="322">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+      <Route_segment NAME="S26B|P12B-R|P10B-R|S18B">
+        <Length>313.690</Length>
+        <Point NAME="P12B">
+          <Id>158</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Divergent</Orientation_in_route>
+        </Point>
+        <Point NAME="P10B">
+          <Id>152</Id>
+          <Position>Reverse</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S18B">
+          <Id>504</Id>
+          <Overlap ID="311">
+            <Distance>70.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S26B</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12B_N</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12B_R</Object_name>
+        <Input_rank>6</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P14B_N</Object_name>
+        <Input_rank>7</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P14B_R</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>6</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P10B_N</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>7</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P10B_R</Object_name>
+        <Value>1</Value>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B19B" TYPE="Reopening" VERSION="0">
+    <Id>4514</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB7">
+      <Id>35</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>34.920</BMB_SDDB_distance>
+    <Origin_signal NAME="S19B">
+      <Id>518</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="S19B|P09B-N|S26B">
+        <Length>410.680</Length>
+        <Point NAME="P09B">
+          <Id>159</Id>
+          <Position>Normal</Position>
+          <Orientation_in_route>Convergent</Orientation_in_route>
+        </Point>
+        <Destination_signal NAME="S26B">
+          <Id>516</Id>
+          <Overlap ID="313">
+            <Distance>40.000</Distance>
+            <Switch_position>Either</Switch_position>
+            <Path NAME="S26B|P12B-N">
+              <Point NAME="P12B">
+                <Id>158</Id>
+                <Position>Normal</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+            <Path NAME="S26B|P12B-R">
+              <Point NAME="P12B">
+                <Id>158</Id>
+                <Position>Reverse</Position>
+                <Orientation_in_route>Divergent</Orientation_in_route>
+              </Point>
+            </Path>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S19B</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P09B_N</Object_name>
+        <Value>1</Value>
+      </Variant>
+      <Variant>
+        <Index>3</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P09B_R</Object_name>
+        <Value>0</Value>
+      </Variant>
+      <Variant>
+        <Index>4</Index>
+        <Type>POINT_N</Type>
+        <Object_name>P12B_N</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>5</Index>
+        <Type>POINT_R</Type>
+        <Object_name>P12B_R</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="BJ2B" TYPE="Reopening_Approach" VERSION="0">
+    <Id>4551</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB7">
+      <Id>35</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>4.000</BMB_SDDB_distance>
+    <Origin_signal NAME="SJ2B">
+      <Id>529</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="SJ2B|S16B">
+        <Length>300.000</Length>
+        <Destination_signal NAME="S16B">
+          <Id>514</Id>
+          <Overlap ID="310">
+            <Distance>70.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <Origin_signal NAME="S16B">
+      <Id>514</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+      <Route_segment NAME="S16B|S10B">
+        <Length>448.000</Length>
+        <Destination_signal NAME="S10B">
+          <Id>513</Id>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>SJ2B</Object_name>
+        <Input_rank>4</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>S16B</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="BJ1B" TYPE="Reopening" VERSION="0">
+    <Id>4552</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EB7">
+      <Id>35</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>4.000</BMB_SDDB_distance>
+    <Origin_signal NAME="SJ1B">
+      <Id>528</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+      <Route_segment NAME="SJ1B|SJ2B">
+        <Length>400.000</Length>
+        <Destination_signal NAME="SJ2B">
+          <Id>529</Id>
+          <Overlap ID="323">
+            <Distance>50.000</Distance>
+          </Overlap>
+        </Destination_signal>
+      </Route_segment>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>SJ1B</Object_name>
+        <Input_rank>8</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B02Y" TYPE="Reopening" VERSION="0">
+    <Id>4555</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EY1">
+      <Id>36</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>7.700</BMB_SDDB_distance>
+    <Origin_signal NAME="X02Y">
+      <Id>578</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X02Y</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B04Y" TYPE="Reopening_Approach" VERSION="0">
+    <Id>4557</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EY1">
+      <Id>36</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>7.700</BMB_SDDB_distance>
+    <Origin_signal NAME="X04Y">
+      <Id>580</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <Origin_signal NAME="X06Y">
+      <Id>581</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Approach</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X04Y</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+      <Variant>
+        <Index>2</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X06Y</Object_name>
+        <Input_rank>3</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B03Y" TYPE="Reopening" VERSION="0">
+    <Id>4556</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EY2">
+      <Id>37</Id>
+      <BM_beacon_output_number>1</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>7.700</BMB_SDDB_distance>
+    <Origin_signal NAME="X03Y">
+      <Id>579</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X03Y</Object_name>
+        <Input_rank>1</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B05Y" TYPE="Reopening" VERSION="0">
+    <Id>4560</Id>
+    <Direction>Down</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EY2">
+      <Id>37</Id>
+      <BM_beacon_output_number>2</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>5.200</BMB_SDDB_distance>
+    <Origin_signal NAME="X05Y">
+      <Id>582</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X05Y</Object_name>
+        <Input_rank>2</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+  <Beacon NAME="B06Y" TYPE="Reopening" VERSION="0">
+    <Id>4558</Id>
+    <Direction>Up</Direction>
+    <Is_guaranted_BM_beacon />
+    <LEU NAME="EY2">
+      <Id>37</Id>
+      <BM_beacon_output_number>3</BM_beacon_output_number>
+    </LEU>
+    <BMB_SDDB_distance>17.700</BMB_SDDB_distance>
+    <Origin_signal NAME="X06Y">
+      <Id>581</Id>
+      <Type_function>Route_spacing_signal</Type_function>
+      <BMB_type>Reopening</BMB_type>
+    </Origin_signal>
+    <BM_variants>
+      <Variant>
+        <Index>1</Index>
+        <Type>SIGNAL</Type>
+        <Object_name>X06Y</Object_name>
+        <Input_rank>5</Input_rank>
+      </Variant>
+    </BM_variants>
+  </Beacon>
+</Block_mode_beacons>

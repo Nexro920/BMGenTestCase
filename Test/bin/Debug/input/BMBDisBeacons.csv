@@ -1,0 +1,27 @@
+C;Track_ID;Beacon;Type;Beacon_Name;Beacon_ID;Direction;Kp;Reference_Correction;Value_of_Gap;Laser_Correction;Distance_Between_Beacons;Beacon_CBTC_Variant_Associated;Beacon_Block_Mode;Beacon_tolerance_ID;Next_up_Calibration_Marker_ID;C_Delta_For_MinDist;C_Delta_For_MaxDist;Beacon_Installation_Side;Next_up_STIB_ID;GAPcomments;Beacon_version;Belonged_line_id;Layout_for_docking;CHECK1;CHECK2
+C;1..255;Beacon;"Marker_RB
+Marker_MTIB
+Static";"Alphanumeric
+BC_<Beacon_ID>";1бн7000;"up(=0)
+down(=1)
+up_down(=2)";0..100000,000;-100000,00..100000,000;N/A;-100000,00..100000,000;0..100000,000;"NO(=0)
+YES(=1)";"NO_BM_VARIANT(=0)
+BM_VARIANT_IN_UP(=1)
+BM_VARIANT_IN_DN(=2)";0..255;0бн7000;-100000,00..100000,000;-100000,00..100000,000;"center(=N/A)
+left(=1)
+right(=2)";N/A;text;0~255;1~255;0~3;OK/NOK;OK/NOK
+V;3;Beacon;Marker_RB;VB0102;4102;2;851,71 ;0;N/A;0;-33,92 ;0;1;0;114;0;0;N/A;N/A;N/A;1;2;0;;
+V;3;Beacon;Marker_RB;VB0106;4106;2;239,73 ;0;N/A;0;-7,16 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;4;Beacon;Marker_RB;VB0101;4105;2;854,53 ;0;N/A;0;-33,95 ;0;1;0;113;0;0;N/A;N/A;N/A;1;2;0;;
+V;1;Beacon;Marker_RB;VB0110;4000;2;1217,20 ;0;N/A;0;2,40 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;1;;
+V;2;Beacon;Marker_RB;VB0111;4003;2;1341,02 ;0;N/A;0;50,72 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;2;Beacon;Marker_RB;VB0203;4009;2;2988,34 ;0;N/A;0;17,69 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;10;Beacon;Marker_RB;VB0609;4115;2;8410,32 ;0;N/A;0;2,54 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;1;Beacon;Marker_RB;VB1402;4054;2;16858,13 ;0;N/A;0;161,42 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;2;Beacon;Marker_RB;VB1303;4055;2;15715,10 ;0;N/A;0;17,48 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;2;Beacon;Marker_RB;IB1303;4057;2;16512,42 ;0;N/A;0;285,18 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;1;Beacon;Marker_RB;VB2002;4082;2;24214,97 ;0;N/A;0;287,07 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;1;Beacon;Marker_RB;FB1914;1914;2;23123,23 ;0;N/A;0;45,01 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;2;Beacon;Marker_RB;VB1705;4075;2;20755,71 ;0;N/A;0;16,79 ;0;2;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;1;Beacon;Marker_RB;IB0302;4006;2;3285,23 ;0;N/A;0;285,15 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;0;;
+V;2;Beacon;Marker_RB;FB1911;1911;2;23086,22 ;0;N/A;0;67,08 ;0;1;0;0;0;0;N/A;N/A;N/A;1;2;1;;

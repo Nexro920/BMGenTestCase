@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Input SYDB file: D:\00004ToolWorks\BMGen\SourceCode\Test\bin\Debug\input\0100input_HHHT2\HHHTL2_SyDB_V1.8.0.xml-->
+<!--Data of generation: Bcode_iTRNV-BMGenTool2_V1.0.0_Build_20190422-->
+<Balise name="FB0121">
+  <Telegram type="LONG">90 00 7F 80 40 3C 8B 10 18 32 80 00 7F FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+</Balise>

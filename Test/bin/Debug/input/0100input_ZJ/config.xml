@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <BeaconLayout_SYDB>.\input\0100input_ZJ\ZJTL_SyDB_v1.12.0_Chain2.xml</BeaconLayout_SYDB>
+  <Layout_beacons>.\input\0100input_ZJ\ZJTL_SyDB_v1.12.0_Chain2.csv</Layout_beacons>
+  <Output>.\0100output_ZJ</Output>
+</config>

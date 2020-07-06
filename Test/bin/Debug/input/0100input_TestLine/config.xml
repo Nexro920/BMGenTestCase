@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <BeaconLayout_SYDB>.\input\0100input_TestLine\TestLine_SyDB_V1.12.0.xml</BeaconLayout_SYDB>
+  <Layout_beacons>.\input\0100input_TestLine\RA15022_TRANAVI_CASCO_Beacon_Layout_V1.5.1-20190410.csv</Layout_beacons>
+  <Output>.\0100output_TestLine</Output>
+</config>

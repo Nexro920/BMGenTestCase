@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <BeaconLayout_SYDB>.\input\0100input_HHHT2\HHHTL2_SyDB_V1.8.0.xml</BeaconLayout_SYDB>
+  <Layout_beacons>.\input\0100input_HHHT2\HHHTL2_All_lines_Beacon_Layout_V1.3.0.csv</Layout_beacons>
+  <Output>.\0100output_HHHT2</Output>
+  <Boundary_beacons>.\input\0100input_HHHT2\BoundaryBeacons.xml</Boundary_beacons>
+</config>

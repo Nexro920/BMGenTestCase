@@ -1,0 +1,33 @@
+C;Track_ID;Beacon;Type;Beacon_Name;Beacon_ID;Direction;Kp;Reference_Correction;Value_of_Gap;Laser_Correction;Distance_Between_Beacons;Beacon_CBTC_Variant_Associated;Beacon_Block_Mode;Beacon_tolerance_ID;Next_up_Calibration_Marker_ID;C_Delta_For_MinDist;C_Delta_For_MaxDist;Beacon_Installation_Side;Next_up_STIB_ID;GAP comments;Beacon_version;Belonged_line_id;Layout_for_docking;CHECK1;CHECK2
+V;1..255;Beacon;"Marker_RB Marker_MTIB Static";"Alphanumeric BC_<Beacon_ID>";1бн7000;"up (=0) down (=1) up_down=2)";0..100000,000;-100000,00..100000,000;N/A;-100000,00..100000,000;0..100000,000;"NO (=0) YES (=1)";"NO_BM_VARIANT (=0)BM_VARIANT_IN_UP (=1) BM_VARIANT_IN_DN (=2)";0..255;0бн7000;-100000,00..100000,000;-100000,00..100000,000;"center (=N/A) left (=1) right (=2)";N/A;text;0~255;1~255;0~3;OK/NOK;OK/NOK
+V;2;Beacon;Marker_RB;B_kpMin;7101;2;0.00;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kpMax;7102;2;100000.00;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kp0;7100;2;99999;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kp1;7200;2;99999.1;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kp2;7300;2;99999.92;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kp3;7400;2;99999.929;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_kp4;7500;2;99999.9200;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kpMin;101;2;0,00;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kpMax;102;2;100000,00;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kp0;100;2;99999,;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kp1;200;2;99999,1;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kp2;300;2;99999,92;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kp3;400;2;99999,929;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B_1kp4;500;2;99999,9200;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V; 2 ;Beacon;Marker_RB; RB_204_r ; 9  ;2;      44,4 ;0;N/A;0;0;0; 0 ;1;0;0;0;N/A;N/A;N/A; 0 ;1;0;;
+V;2;Beacon;Marker_RB;B07CBVermax_r;7000;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;65535;1;0;;
+V;2;Beacon;Marker_RB;B07CBVermin_r;7001;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;0;1;0;;
+V;2;Beacon;Marker_RB;B07CBVermax_w;7002;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;65536;1;0;;
+V;2;Beacon;Marker_RB;B07CBVermin_w;7003;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;-1;1;0;;
+V;2;Beacon;Marker_RB;B07CBIDMax_r;16383;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBIDMin_r;1;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBIDMax_w;16384;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBIDMin_w;0;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;65535;Beacon;Marker_RB;B07CBTIDMax_r;7004;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;1;Beacon;Marker_RB;B07CBTIDMin_r;7005;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;65536;Beacon;Marker_RB;B07CBTIDMax_w;7006;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;0;Beacon;Marker_RB;B07CBTIDMin_w;7007;2;0,46;0;N/A;0;0;0;1;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBModMax_r;7008;2;0,46;0;N/A;0;0;0;2;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBModMin_r;7009;2;0,46;0;N/A;0;0;0;0;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBModMax_w;7010;2;0,46;0;N/A;0;0;0;3;1;0;0;0;N/A;N/A;N/A;255;1;0;;
+V;2;Beacon;Marker_RB;B07CBModMin_w;7011;2;0,46;0;N/A;0;0;0;-1;1;0;0;0;N/A;N/A;N/A;255;1;0;;

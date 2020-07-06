@@ -1,0 +1,13 @@
+*.rar
+*.bak
+.vs
+BMGenTool/bin
+BMGenTool/obj
+packages
+.history
+Test/obj
+Test/bin/**
+!Test/bin/Debug/
+!Test/bin/Debug/input/
+!Test/bin/Debug/input/**
+

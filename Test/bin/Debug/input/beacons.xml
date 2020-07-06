@@ -1,0 +1,96 @@
+<!-- Project : BMgen -->
+<!-- Generation date : 2019年1月31日 星期四-->
+<!-- Author : BMGen version 1.2.1 (1/31/2019) -->
+<!-- 2019-1-31，新增line_boundary_BM_beacons配置文件模板，CM -->
+<Line_boundary_BM_beacons>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>7101</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B_2DisMin</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>25</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>0.00</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>7102</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B_2DisMax</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>25</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>2048.00</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>26</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B_2Dis0</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>25</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>2047.</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>27</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B_2Dis1</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>25</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>2047.9</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>28</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B_2Dis2</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>25</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>2047.99</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>1</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B07CBIDMin_r</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>1</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>65535</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B07CBIDMax_r</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>1</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>10</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B07CBVermax_r</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>255</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>11</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>B07CBVermin_r</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>0</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+</Line_boundary_BM_beacons>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESTRICTION>
+	<BEACON_LAYOUT>
+		<Beacon_Version>
+			<INT MAX="65535" MIN="0"/>
+		</Beacon_Version>
+		<Beacon_ID>
+			<INT MAX="16383" MIN="1"/>
+		</Beacon_ID>
+		<Track_ID>
+			<INT MAX="65535" MIN="1"/>
+		</Track_ID>
+		<Beacon_Block_Mode>
+			<INT MAX="2" MIN="0"/>
+		</Beacon_Block_Mode>
+	</BEACON_LAYOUT>
+</RESTRICTION>

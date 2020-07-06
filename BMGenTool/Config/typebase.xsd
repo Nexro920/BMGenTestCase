@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="Empty"/>
+	<!-- simpletypes for special definition in CBTC -->
+	<xs:simpleType name="Beacon_Type">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Dynamic|Static"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="POS_N_R">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Normal|Reverse"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="POS_Con_Div">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Convergent|Divergent"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Direction_C_O">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="CONVENTIONAL|OPPOSITE"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="Direction_U_D">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Up|Down"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="UpDownBoth">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Up|Down|Both"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DSU_type_values">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="Download|Version_check"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- simpletypes for string of length and pattern -->
+	<xs:simpleType name="STR_1_255">
+		<xs:restriction base="xs:string">
+		    <xs:minLength value="1"/>
+    		<xs:maxLength value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="STR_0X0_0XFFFF">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^0X[0-9A-Fa-f]{1,4}$"/>
+			<xs:pattern value="^0x[0-9a-fA-F]{1,4}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="STR_0X0_0XFFFFFFFF">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^0X[0-9A-Fa-f]{1,8}$"/>
+			<xs:pattern value="^0x[0-9a-fA-F]{1,8}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CHAR4">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^[\w_]{1,4}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="CHAR12_Chinese">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^[\w_]{1,12}$"/>
+			<xs:pattern value="^[\u4e00-\u9fa5]{1,6}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="STR_X.Y.Z">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^([0-9]\d|[0-9])(.([0-9]\d|\d)){2}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="STRADDR_0_255_4">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="^(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])(.(\d{1,2}|1\d\d|2[0-4]\d|25[0-5])){3}$"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="OR2_4">
+		<xs:restriction base="xs:string">
+			<xs:pattern value="2|4"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- simpletypes for INT of ranges -->
+	<xs:simpleType name="INT_-65534_0">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="-65534"/>
+			<xs:maxInclusive value="0"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_3">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="3"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_10">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="10"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_0_180">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="180"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_0_200">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="200"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_200">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="200"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_0_255">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_255">
+		<xs:restriction base="xs:short">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="255"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_1000">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="1000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_15_1800">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="15"/>
+			<xs:maxInclusive value="1800"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_2000">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="2000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_3000">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="3000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_65535">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="65535"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_0_65535">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="65535"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_7000">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="7000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_10000">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="10000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_16383">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="16383"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_-2147483647_2147483647">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="-2147483648"/>
+			<xs:maxInclusive value="2147483647"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_0_4294967295">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="4294967295"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="INT_1_4294967295">
+		<xs:restriction base="xs:long">
+			<xs:minInclusive value="1"/>
+			<xs:maxInclusive value="4294967295"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!-- simpletypes for decimal of ranges -->
+	<xs:simpleType name="DEC_-65534_0_frac3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="-65534"/>
+			<xs:maxInclusive value="0"/>
+			<xs:pattern value="-?\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_-40000_40000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="-40000"/>
+			<xs:maxInclusive value="40000"/>
+			<xs:pattern value="-?\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_-40000_-200_200_40000_fra3">
+		<xs:union>
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:minInclusive value="-40000"/>
+					<xs:maxInclusive value="-200"/>
+					<xs:pattern value="-\d+\.\d{3}"/>
+				</xs:restriction>
+			</xs:simpleType>
+			<xs:simpleType>
+				<xs:restriction base="xs:decimal">
+					<xs:minInclusive value="200"/>
+					<xs:maxInclusive value="40000"/>
+					<xs:pattern value="\d+\.\d{3}"/>
+				</xs:restriction>
+			</xs:simpleType>
+		</xs:union>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_-200_200_fra1">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="-200"/>
+			<xs:maxInclusive value="200"/>
+			<xs:pattern value="-?\d+.\d"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_2.55_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="2.550"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_500_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="500"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_2000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="2000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_2040_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="2040"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_2048_Maxfra2">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="2048"/>
+			<xs:fractionDigits value="2"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_3000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="3000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_5000">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="5000"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_10000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="10000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_20000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="20000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_100000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="100000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0_300000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0"/>
+			<xs:maxInclusive value="300000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<xs:simpleType name="DEC_0.001_10000_fra3">
+		<xs:restriction base="xs:decimal">
+			<xs:minInclusive value="0.001"/>
+			<xs:maxInclusive value="10000"/>
+			<xs:pattern value="\d+\.\d{3}"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+	<!-- complexTypes of IP and net elements -->
+	<xs:group name="IP_PORT_MSK">
+		<xs:sequence>
+			<xs:element name="Address" type="STRADDR_0_255_4"/>
+			<xs:element name="Port" type="INT_1_65535"/>
+			<xs:element name="Mask" type="STRADDR_0_255_4"/>
+		</xs:sequence>
+	</xs:group>
+	<xs:complexType name="Ip_address">
+		<xs:sequence>
+			<xs:group ref="IP_PORT_MSK"/>
+			<xs:element name="Gateway" type="STRADDR_0_255_4"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ip_address_2">
+		<xs:sequence>
+			<xs:element name="Red" type="Ip_address"/>
+			<xs:element name="Blue" type="Ip_address"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Ip_address_without_gateway">
+		<xs:sequence>
+			<xs:group ref="IP_PORT_MSK"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ip_address_2_without_gateway">
+		<xs:sequence>
+			<xs:element name="Red" type="Ip_address_without_gateway"/>
+			<xs:element name="Blue" type="Ip_address_without_gateway"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Ip_address_Node_2_without_gateway">
+		<xs:sequence>
+			<xs:element name="Ip_address" type="Ip_address_2_without_gateway"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="Net">
+		<xs:sequence>
+			<xs:element name="DestNet" type="STRADDR_0_255_4"/>
+			<xs:element name="DestMask" type="STRADDR_0_255_4"/>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="Net_2">
+		<xs:sequence>
+			<xs:element name="Red" type="Net"/>
+			<xs:element name="Blue" type="Net"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- complexTypes of special definition -->
+	<xs:complexType name="Point_attr_id_pos">
+		<xs:attribute name="ID" type="INT_1_4294967295"/>
+		<xs:attribute name="POSITION" type="POS_N_R"/>
+	</xs:complexType>
+	<xs:complexType name="Attr_id_dir">
+		<xs:attribute name="ID" type="INT_1_4294967295"/>
+		<xs:attribute name="DIRECTION" type="Direction_U_D"/>
+	</xs:complexType>
+	<xs:complexType name="Value_char4_Attri_Dir_UpDownBoth">
+		<xs:simpleContent>
+			<xs:extension base="CHAR4">
+				<xs:attribute name="Dir" type="UpDownBoth"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="Value_char12C_Attri_Dir_UpDownBoth">
+		<xs:simpleContent>
+			<xs:extension base="CHAR12_Chinese">
+				<xs:attribute name="Dir" type="UpDownBoth"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	
+</xs:schema>

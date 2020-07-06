@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Input SYDB file: .\input\0100input_HHHT2\HHHTL2_SyDB_V1.8.0.xml-->
+<!--Data of generation: Bcode_iTRNV-BMGenTool2_V1.0.2_Build_20200409_debug-->
+<LEU name="E2F">
+  <INPUT_BOARD id="1">
+    <SLOT>15</SLOT>
+    <GID>714D761956111EB3</GID>
+    <TYPE>04</TYPE>
+  </INPUT_BOARD>
+  <OUTPUT_BOARD>
+    <SLOT>19</SLOT>
+    <GID>43FF73174470EE4E</GID>
+    <TYPE>01</TYPE>
+    <TEL_number>7F</TEL_number>
+  </OUTPUT_BOARD>
+  <Output_balise id="1" telegram="LONG">
+    <Input>
+      <Channel>00</Channel>
+      <Number>01</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>02</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>03</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>04</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>05</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>06</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>07</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>08</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>09</Number>
+    </Input>
+    <Input>
+      <Channel>00</Channel>
+      <Number>0A</Number>
+    </Input>
+    <Aspect>
+      <Mask>0XXXXXXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 00 00 7E 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1010XXXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 47 32 C0 00 18 00 01 00 1E 70 00 19 75 04 00 22 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1110XXXXXXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 50 32 C0 00 10 00 02 00 32 A8 00 00 00 08 00 22 00 09 BF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1X011010XXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 62 32 C0 00 28 00 01 00 1B A2 80 18 B4 90 00 21 00 2E 80 0B E0 03 0B FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1X011001XXXXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 62 32 C0 00 28 00 01 00 1B A2 80 18 B4 90 00 21 00 2E 80 0B E0 03 07 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1X0101XX10XXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 62 32 C0 00 68 00 01 00 1B C5 40 18 D7 50 00 21 00 2E 40 0C 90 03 3B FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Aspect>
+      <Mask>1X0101XX01XXXXXXXXXXXXXXXXXXXX</Mask>
+      <Telegram>90 00 7F 80 47 ED 0B 10 18 32 80 00 4B 10 62 32 C0 00 68 00 01 00 1B C5 40 18 D7 50 00 21 00 2E 40 0C 90 03 37 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Telegram>
+    </Aspect>
+    <Default_telegram>90 00 00 00 47 ED 0B 10 18 32 80 00 4B 10 3E 32 C0 00 08 00 00 80 00 00 00 00 00 03 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FC</Default_telegram>
+  </Output_balise>
+  <Encoder mode="Signalling">
+    <TE_NUMBER>01</TE_NUMBER>
+    <TEMPO_T1>10</TEMPO_T1>
+    <TEMPO_T2>05</TEMPO_T2>
+    <SYNC_MASTER_BOARD>19</SYNC_MASTER_BOARD>
+    <NETWORK_GID>5089859C298ECD27</NETWORK_GID>
+    <FIP_ENCODER_PN>02</FIP_ENCODER_PN>
+    <FIP_SUB_NETWORK_ADD>00</FIP_SUB_NETWORK_ADD>
+    <SYSCKW_A>AE390B5A</SYSCKW_A>
+    <SYSCKW_B>C103589C</SYSCKW_B>
+    <SL_CHANGEOVER>03</SL_CHANGEOVER>
+  </Encoder>
+  <Network>
+    <Transmit_Channel>
+      <VFIP_ADD>01</VFIP_ADD>
+      <Application_Category>01</Application_Category>
+      <FSFB2_Subnet_Ad>FFFF</FSFB2_Subnet_Ad>
+      <FSFB2_SRC_ADD>0006</FSFB2_SRC_ADD>
+      <SID_A>5B26603C</SID_A>
+      <SID_B>64C54B3E</SID_B>
+      <SINIT_A>26AA6538</SINIT_A>
+      <SINIT_B>5C82653A</SINIT_B>
+      <DATAVER id="1">
+        <DATAVER_A>6DB31504</DATAVER_A>
+        <DATAVER_B>37540506</DATAVER_B>
+        <NUM_DATAVER>01</NUM_DATAVER>
+        <FSFB2_SRC_ADD>00FF</FSFB2_SRC_ADD>
+      </DATAVER>
+    </Transmit_Channel>
+  </Network>
+  <POSIXDATE_TPC>45A5D260</POSIXDATE_TPC>
+  <VERID_TPC>1222222</VERID_TPC>
+  <POSIXDATE_TSE>45A5D260</POSIXDATE_TSE>
+  <VERID_TSE>1444444</VERID_TSE>
+  <POSIXDATE_TE>45A5D260</POSIXDATE_TE>
+  <VERID_TE>1AAAAAA</VERID_TE>
+</LEU>

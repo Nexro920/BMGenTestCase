@@ -1,0 +1,108 @@
+﻿  <Implementation_Beacon_Block_Mode Data_Familly="DF6" Last_SyDB_Version_ID_Memorized="">
+    <BM_Beacon ID="1" Name="RB_204">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E1D" Beacon_Output_number="1" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="1" Name="X10D" Type="Reopening" />
+      <Input_Point RANK="2" Name="P4" Type="Normal" />
+      <Input_Point RANK="3" Name="P4" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="2" Name="B07CB">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E1D" Beacon_Output_number="2" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="4" Name="X08D" Type="Reopening" />
+      <Input_Signal RANK="5" Name="X12D" Type="Approach" />
+      <Input_Point RANK="6" Name="P6" Type="Normal" />
+      <Input_Point RANK="7" Name="P6" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="3" Name="RB_206">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E1D" Beacon_Output_number="3" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="8" Name="X04D" Type="Reopening" />
+    </BM_Beacon>
+    <BM_Beacon ID="4" Name="RB_214">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E2D" Beacon_Output_number="1" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="1" Name="X12D" Type="Reopening" />
+      <Input_Point RANK="2" Name="P6" Type="Normal" />
+      <Input_Point RANK="3" Name="P6" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="5" Name="B07CA">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E2D" Beacon_Output_number="2" />
+      <Direction>Down</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="4" Name="X14D" Type="Reopening" />
+      <Input_Point RANK="5" Name="P7" Type="Normal" />
+      <Input_Point RANK="6" Name="P7" Type="Reverse" />
+      <Input_Point RANK="7" Name="P5" Type="Normal" />
+      <Input_Point RANK="8" Name="P5" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="6" Name="B02D1">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E3D" Beacon_Output_number="1" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>false</Is_Guaranted_Beacon>
+      <Input_Signal RANK="1" Name="X06D" Type="Reopening" />
+      <Input_Signal RANK="2" Name="X10D" Type="Approach" />
+      <Input_Point RANK="3" Name="P4" Type="Normal" />
+      <Input_Point RANK="4" Name="P4" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="7" Name="RB_236">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E3D" Beacon_Output_number="2" />
+      <Direction>Down</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="5" Name="X16D" Type="Reopening" />
+      <Input_Point RANK="6" Name="P5" Type="Normal" />
+      <Input_Point RANK="7" Name="P5" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="8" Name="B02DA">
+      <CI_Name>CBI_ZJJ</CI_Name>
+      <LEU LEU_Name="E3D" Beacon_Output_number="3" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="8" Name="X02D" Type="Reopening" />
+    </BM_Beacon>
+    <BM_Beacon ID="9" Name="B01C">
+      <CI_Name>CBI_ZJB</CI_Name>
+      <LEU LEU_Name="E1C" Beacon_Output_number="1" />
+      <Direction>Down</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="1" Name="X01C" Type="Reopening" />
+      <Input_Point RANK="2" Name="P3" Type="Normal" />
+      <Input_Point RANK="3" Name="P3" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="10" Name="RB_246">
+      <CI_Name>CBI_ZJB</CI_Name>
+      <LEU LEU_Name="E1C" Beacon_Output_number="2" />
+      <Direction>Up</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="5" Name="X05C" Type="Reopening" />
+    </BM_Beacon>
+    <BM_Beacon ID="11" Name="B03CA">
+      <CI_Name>CBI_ZJB</CI_Name>
+      <LEU LEU_Name="E2C" Beacon_Output_number="1" />
+      <Direction>Down</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="1" Name="X03C" Type="Reopening" />
+      <Input_Point RANK="2" Name="P3" Type="Normal" />
+      <Input_Point RANK="3" Name="P3" Type="Reverse" />
+    </BM_Beacon>
+    <BM_Beacon ID="15" Name="B03CB">
+      <CI_Name>CBI_ZJB</CI_Name>
+      <LEU LEU_Name="E1C" Beacon_Output_number="3" />
+      <Direction>Down</Direction>
+      <Is_Guaranted_Beacon>true</Is_Guaranted_Beacon>
+      <Input_Signal RANK="5" Name="X03C" Type="Approach" />
+      <Input_Point RANK="6" Name="P3" Type="Normal" />
+      <Input_Point RANK="7" Name="P3" Type="Reverse" />
+    </BM_Beacon>
+  </Implementation_Beacon_Block_Mode>

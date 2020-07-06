@@ -1,0 +1,46 @@
+<!-- Project : BMgen -->
+<!-- Generation date : 2019年1月31日 星期四-->
+<!-- Author : BMGen version 1.2.1 (1/31/2019) -->
+<!-- 2019-1-31，新增line_boundary_BM_beacons配置文件模板，CM -->
+
+<Line_boundary_BM_beacons>
+    <!--Count [0,100], 所属本线但物理位置在邻线边界处的有源应答器 -->
+    <Beacon>
+        <!--Count 1，应答器标识-->
+        <Id>6704</Id>
+        <!--Count 1，在4号线边界-->
+        <Name>RB_21421</Name>
+        <!--Count [0, 1]，信标到线路边界的距离（预告信标填主应答器的）-->
+        <BMB_SDDB_distance>3</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon>
+        <!--Count 1，应答器标识-->
+        <Id>620</Id>
+        <!--Count 1，在3号线边界-->
+        <Name>RB_2026</Name>
+        <!--Count [0,100]，应答器版本-->
+        <Version>0</Version>
+        <!--Count [0, 1]，信标到线路边界的距离（预告信标填主应答器的）-->
+        <BMB_SDDB_distance>3</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1，应答器标识-->
+        <Id>70</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>VB11</Name> 
+        <!--Count [0,100]，应答器版本-->
+        <Version>1</Version>
+        <!--Count [0, 1]，信标到线路边界的距离（预告信标填主应答器的）-->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+    <Beacon> 
+        <!--Count 1，应答器标识-->
+        <Id>109</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>VB19</Name> 
+        <!--Count [0,100]，应答器版本-->
+        <Version>255</Version>
+        <!--Count [0, 1]，信标到线路边界的距离（预告信标填主应答器的）-->
+        <BMB_SDDB_distance>6</BMB_SDDB_distance>
+    </Beacon>
+</Line_boundary_BM_beacons>
