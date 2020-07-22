@@ -1,0 +1,24 @@
+  <Implementation_Beacon_Block_Mode Data_Familly="DF6" Last_SyDB_Version_ID_Memorized="">
+    <BM_Beacon ID="111" Name="B03C1">
+         <CI_Name>CBI_ZJB</CI_Name>
+         <LEU LEU_Name="E2C1" Beacon_Output_number="3"/>
+         <Direction>Down</Direction>
+         <Is_Guaranted_Beacon>false</Is_Guaranted_Beacon>
+         <Input_Signal RANK="1" Name="X06D" Type="Reopening"/>
+         <Input_Signal RANK="2" Name="X10D" Type="Approach"/>
+         <Input_Signal RANK="5" Name="X02D" Type="Approach"/>
+         <Input_Signal RANK="6" Name="X07C" Type="Approach"/>
+         <Input_Signal RANK="7" Name="X04C" Type="Approach"/>
+         <Input_Point RANK="2" Name="P3" Type="Normal"/>
+         <Input_Point RANK="3" Name="P3" Type="Reverse"/>
+    </BM_Beacon>
+    <BM_Beacon ID="121" Name="B03C2">
+         <CI_Name>CBI_ZJB</CI_Name>
+         <LEU LEU_Name="E2C21" Beacon_Output_number="3"/>
+         <Direction>Down</Direction>
+         <Is_Guaranted_Beacon>false</Is_Guaranted_Beacon>
+         <Input_Signal RANK="1" Name="X03C" Type="Reopening"/>
+         <Input_Point RANK="2" Name="P3" Type="Normal"/>
+         <Input_Point RANK="3" Name="P3" Type="Reverse"/>
+    </BM_Beacon>
+  </Implementation_Beacon_Block_Mode>

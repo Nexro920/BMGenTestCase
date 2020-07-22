@@ -177,10 +177,11 @@ namespace BMGenTool.Info
                             BEACON.SignamReBeaconDic[linkedSigName] = Name;
                             if (appSigNum > 3)
                             {//error
+                                type = BeaconType.Invalid;
                                 TraceMethod.RecordInfo($"Beacon {Name} data error, the input signal number of approach is more than 3!");
                             }
 
-                            if (0 == appSigNum)
+                            else if (0 == appSigNum)
                             {//0 approach 1 reopening: type = Reopening beacon
                                 type = BeaconType.Reopening;
                             }

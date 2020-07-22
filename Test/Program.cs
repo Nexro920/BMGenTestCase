@@ -19,7 +19,7 @@ namespace BMGenTool.Info
             Console.WriteLine("input the test case number (0 then quit; 111 then run all cases)：");
 
             do{
-                cmd = 111;//int.Parse(Console.ReadLine());
+                cmd = 4;//*111;/*/int.Parse(Console.ReadLine());
                 //cmd = Convert.ToInt16(Console.ReadLine());
                 if (cmd == 111)
                 {

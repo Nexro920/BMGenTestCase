@@ -44,7 +44,7 @@ namespace BMGenTool.Info
             BFGen bf = new BFGen(".//input//BMVF_FromZJ.csv", "", "", false, false);
             MethodHelper.InvokePrivateMethod<BFGen>(bf, "Init");
 
-            Debug.Assert(true == bmvf.Generate(".//output"));
+            Debug.Assert(true == bmvf.Generate(".//output"));  // generate BMVF file.
             Debug.Assert(true == File.Exists(".//output//BMV//block_mode_variants_file.xml"));
         }
 
@@ -55,7 +55,7 @@ namespace BMGenTool.Info
             List<LEU> leulist = new List<LEU>();
             List<BEACON> blist = new List<BEACON>();
 
-            BMVFGen bvf = new BMVFGen(false, ref blist, ref leulist);
+            BMVFGen bvf = new BMVFGen(false, ref blist, ref leulist);  // initial
             //Act Assert
             Debug.Assert(false == bvf.GenrateDeviceByIBBM());
             
@@ -63,14 +63,15 @@ namespace BMGenTool.Info
             BFGen bf = new BFGen(".//input//validbeacons.csv", "", "", false, false);
             bf.Init();
 
-            List<string> validleunames = new List<string>() { "E1D", "E2D", "E3D", "E1C"};
+            List<string> validleunames = new List<string>() { "E1D", "E2D", "E3D", "E1C", "E3D2", "E2D2", "E2D3", "E2C1", "E2C7"};
             GENERIC_SYSTEM_PARAMETERS.IMPLEMENTATION_BEACON_BLOCK_MODE ibbms = FileLoader.Load<GENERIC_SYSTEM_PARAMETERS.IMPLEMENTATION_BEACON_BLOCK_MODE>(".//input//IBBM.xml");
             sydb.ibbmInfoList.Clear();
-            sydb.ibbmInfoList = ibbms.BM_Beacon;
+            sydb.ibbmInfoList = ibbms.BM_Beacon;  // read all IBBM beacons
 
             //Act
             Debug.Assert(true == bvf.GenrateDeviceByIBBM());
             //Assert
+            
             foreach (IBeaconInfo b in sydb.GetBeacons())
             {
                 if (b.IsVariantBeacon() == true)
@@ -83,6 +84,8 @@ namespace BMGenTool.Info
                 }
             }
 
+            leulist.ForEach(Print);
+             
             Debug.Assert(validleunames.Count == leulist.Count());
             int leuid = 1;
             foreach (LEU l in leulist)
@@ -91,6 +94,10 @@ namespace BMGenTool.Info
                 Debug.Assert(l.Name == validleunames[leuid - 1]);
                 ++leuid;
             }
+        }
+        public void Print(LEU s)
+        {
+            Console.WriteLine(s.Name);
         }
     }
     public static class test0004Extend

@@ -50,7 +50,7 @@ namespace BMGenTool.Info
                 SyDB sydb = SyDB.GetInstance();
                 List<IBeaconInfo> bs = sydb.GetBeacons();
                 Debug.Assert(bs.Count == num);//only read the valid beacons
-
+                
                 for (int i = 0; i < kps.Length; ++i)
                 {
                     Debug.Assert(bs[i].kp.Value == kps[i]);
@@ -153,7 +153,7 @@ namespace BMGenTool.Info
     {
         public static bool Init(this BFGen instance)
         {
-            return (bool)MethodHelper.InvokePrivateMethod<BFGen>(instance, "Init");
+            return (bool)MethodHelper.InvokePrivateMethod<BFGen>(instance, "Init");  // read csv correctly.
         }
     }
 }

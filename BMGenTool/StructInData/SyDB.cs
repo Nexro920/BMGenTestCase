@@ -443,11 +443,12 @@ namespace BMGenTool.Info
             List<IBeaconInfo> list = new List<IBeaconInfo>();
             list.AddRange(beaconInfoList);
             list.AddRange(boundBeaconInfoList);
-            
+
             List<string> beaconnames = (from beacon in list
                                                select beacon.Name).ToList<string>();
+
             string buff = "The beaconnames from layout.csv and boundarybeacons.xml is repeated, please modify";
-            if (false == checkRepeat(beaconnames, ref buff))
+            if (false == checkRepeat(beaconnames, ref buff))  // no repeat return true else false.
             {
                 TraceMethod.Record(TraceMethod.TraceKind.ERROR, buff);
             }
@@ -483,7 +484,7 @@ namespace BMGenTool.Info
                 return false;
             }
 
-            List<List<string>> data = csvFileRd.GetData(1, count);
+            List<List<string>> data = csvFileRd.GetData(1, count);  //get csv data
 
             List<string> headList = data[0];
 

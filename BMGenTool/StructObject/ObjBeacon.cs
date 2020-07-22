@@ -82,6 +82,8 @@ namespace BMGenTool.Info
             return null;
         }
 
+        public string m_Type;  // add to save IBBM beacon type
+
         public BEACON(IBeaconInfo BInfo, GENERIC_SYSTEM_PARAMETERS.IMPLEMENTATION_BEACON_BLOCK_MODE.BM_BEACON ibbm)
         {
             m_layoutInfo = BInfo;
@@ -91,7 +93,8 @@ namespace BMGenTool.Info
             m_AppOrgSigLst = new List<OriginSignal>();
 
             //todo now this must be called here
-            ibbm.GetBeaconType();
+            //ibbm.GetBeaconType();
+            m_Type = ibbm.GetBeaconType();
         }
         
         //BMGR-0046
@@ -212,23 +215,23 @@ namespace BMGenTool.Info
             return beaconNames;
         }
         
-        public bool AddBeacon(int BeaconOutNum, string beaconName)
+        public int AddBeacon(int BeaconOutNum, string beaconName)
         {
             if (BeaconOutNum < 1 || BeaconOutNum > 4)
             {
                 TraceMethod.Record(TraceMethod.TraceKind.ERROR, $"sydb file data error: Beacon[{beaconName}] IBBM.BM_Beacon.LEU.@Beacon_Output_Nb={BeaconOutNum} not in [1,4]");
-                return false;
+                return -1;
             }
             //check if LEU.BeaconOutNum is repeated
             if ("" != beaconNames[BeaconOutNum-1])
             {
                 TraceMethod.Record(TraceMethod.TraceKind.ERROR,
                     $"sydb.IBBM data error: Beacon[{beaconNames[BeaconOutNum - 1]}] and Beacon[{beaconName}] has same LEU={Name} Beacon_Output_number={BeaconOutNum}");
-                return false;
+                return -2;
             }
 
             beaconNames[BeaconOutNum - 1] = beaconName;
-            return true;
+            return 0;
         }
     }
 

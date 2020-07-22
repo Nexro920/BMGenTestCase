@@ -86,10 +86,16 @@ namespace BMGenTool.Generate
             //clear leu and beacon before add new data to them
             LEUList.Clear();
             beaconList.Clear();
+            int IsAddBeacon;
+
+            List<IBeaconInfo> list1 = sydb.GetBeacons();  // newly added to avoid outputting the same ID and name repeatedly
+
+            //List<string> ibbmBeaconList = (from ibbmBeacon in sydb.ibbmInfoList select ibbmBeacon.Name);
 
             foreach (GENERIC_SYSTEM_PARAMETERS.IMPLEMENTATION_BEACON_BLOCK_MODE.BM_BEACON ibbm in sydb.ibbmInfoList)//search sydb.ibbm, LEUID should be same with this order
             {
-                IBeaconInfo layout = sydb.GetBeacons().Find(x => x.Name == ibbm.Name);
+                //IBeaconInfo layout = sydb.GetBeacons().Find(x => x.Name == ibbm.Name);  // This line will repeat the output ID and Name
+                IBeaconInfo layout = list1.Find(x => x.Name == ibbm.Name);
 
                 //judge the beacon first, if this beacon is not exist in Beacons, then ignore this beacon and LEU
                 if (null == layout)
@@ -101,6 +107,13 @@ namespace BMGenTool.Generate
                 if (false == layout.IsVariantBeacon())
                 {
                     TraceMethod.Record(TraceMethod.TraceKind.WARNING, $"Beacon[{ibbm.Name}] exist in Implementation_Beacon_Block_Mode but is Fixed Beacon.");
+                    continue;
+                }
+
+                BEACON newbeacon = new BEACON(layout, ibbm);
+                beaconList.Add(newbeacon);
+                if (newbeacon.m_Type == "Invalid")
+                {
                     continue;
                 }
 
@@ -116,14 +129,29 @@ namespace BMGenTool.Generate
                 }
 
                 { //check LEU.BeaconOutNum
-                    if (false == LEUList[LEUidx].AddBeacon(ibbm.LEU.Beacon_Output_number, ibbm.Name))
+                    IsAddBeacon = LEUList[LEUidx].AddBeacon(ibbm.LEU.Beacon_Output_number, ibbm.Name);
+                    //if (false == LEUList[LEUidx].AddBeacon(ibbm.LEU.Beacon_Output_number, ibbm.Name))
+                    if (-1 == IsAddBeacon)
                     {
+                        LEUList.RemoveAt(LEUidx);  // new add to remove error LEU
+                        --LEUID;
+                        continue;
+                    }
+                    else if (-2 == IsAddBeacon)
+                    {
+                        //LEUList.RemoveAt(LEUidx);  // new add to remove error LEU
+                        //--LEUID;
                         TraceMethod.Record(TraceMethod.TraceKind.WARNING, $"Beacon {ibbm.Info} will link to LEU {ibbm.LEU.Info} faild.");
+                        
                     }
                 }
 
-                BEACON newbeacon = new BEACON(layout, ibbm);
-                beaconList.Add(newbeacon);
+                //BEACON newbeacon = new BEACON(layout, ibbm);
+                //beaconList.Add(newbeacon);
+                //if (newbeacon.m_Type == "Invalid")
+                //{
+                //    continue;
+                //}
             }
 
             if (null == beaconList || beaconList.Count() <= 0)
@@ -133,7 +161,8 @@ namespace BMGenTool.Generate
             }
 
             //check if exist variant beacon which in beacons but not in Implementation_Beacon_Block_Mode
-            foreach (IBeaconInfo beacon in sydb.GetBeacons())
+            //foreach (IBeaconInfo beacon in sydb.GetBeacons())
+            foreach(IBeaconInfo beacon in list1)
             {
                 if (true == beacon.IsVariantBeacon())
                 {
@@ -146,6 +175,10 @@ namespace BMGenTool.Generate
                     }
                 }
             }
+            LEUList.ForEach(delegate (LEU name)  // print LEU
+            {
+                Console.WriteLine(name.Name);
+            });
             return rt;
         }
 

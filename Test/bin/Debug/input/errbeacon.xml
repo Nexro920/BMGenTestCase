@@ -1,0 +1,16 @@
+<!-- Project : BMgen -->
+<!-- Generation date : 2019年1月31日 星期四-->
+<!-- Author : BMGen version 1.2.1 (1/31/2019) -->
+<!-- 2019-1-31，新增line_boundary_BM_beacons配置文件模板，CM -->
+<Line_boundary_BM_beacons>
+    <Beacon> 
+        <!--Count 1 [1,65535]，应答器标识-->
+        <Id>1</Id>
+        <!--Count 1，在1号线边界-->
+        <Name>NameChange</Name> 
+        <!--Count 1，[0,255] 在1号线边界-->
+        <Version>2</Version>
+        <!--Count [0, 2048] 0.01  m -->
+        <BMB_SDDB_distance>2047.991</BMB_SDDB_distance>
+    </Beacon>
+</Line_boundary_BM_beacons>
